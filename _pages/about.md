@@ -8,6 +8,15 @@ redirect_from:
   - /about.html
 ---
 
+I am currently a CPU Verification Engineer at ARM working on verifying the architectural validity and design of the latest ARM processors. I previously used to work for Intel, where I worked in the Thunderbolt Team and was part of one of the first teams in the world to work on USB 4.0. I had an opportunity to travel to the USA to witness and be part of the birth of Intel's (at the time) latest SoC Platform. My current areas of interest are Computer Architecture, Hardware Security and High Performance Computing. I will be joining Georgia Tech as a MS in Computer Science student in Fall'21 specializing in Computing Systems with a focus on computer architecture. I also received acceptances from Columbia University and Pensylvania State University. 
+
+
+##More About me
+I graduated from the Indian Institute of Technology, Kharagpur (IIT-KGP) with a dual degree B.Tech and M.Tech degree in EECE in 2018. My M.Tech specialization was Microelectronics and VLSI Design and my research interest at the time was nanoelectronics and electronic materials. A paper based on work I had done during my time at IIT-KGP was published in 2021 in IEEE Transactions on Electron Devices [link to paper](https://ieeexplore.ieee.org/abstract/document/9316254). In the summer of 2017, I had the pleasure of working with Prof. Chennupati Jagadish and Dr. Dipankar Chugh at the Australian National University. I also presented my work at IIT Kharagpur at the EMRS Spring Meet in Strasbourg, France.
+
+I have had a lot of hobbies over the years, which I keep dropping and picking up. I play the guitar, write short stories, make funny comics, run and play video games. I'm happy to discuss any of these things over a hot cup of coffee (which I'm also addicted to).
+
+
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
 A data-driven personal website
