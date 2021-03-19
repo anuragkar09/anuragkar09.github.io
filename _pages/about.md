@@ -11,7 +11,9 @@ redirect_from:
 I am currently a CPU Verification Engineer at ARM working on verifying the architectural validity and design of the latest ARM processors. I previously used to work for Intel, where I worked in the Thunderbolt Team and was part of one of the first teams in the world to work on USB 4.0. I had an opportunity to travel to the USA to witness and be part of the birth of Intel's (at the time) latest SoC Platform. My current areas of interest are Computer Architecture, Hardware Security and High Performance Computing. I will be joining Georgia Tech as a MS in Computer Science student in Fall'21 specializing in Computing Systems with a focus on computer architecture. I also received acceptances from Columbia University and Pensylvania State University. 
 
 
-##More About me
+More About me
+------
+
 I graduated from the Indian Institute of Technology, Kharagpur (IIT-KGP) with a dual degree B.Tech and M.Tech degree in EECE in 2018. My M.Tech specialization was Microelectronics and VLSI Design and my research interest at the time was nanoelectronics and electronic materials. A paper based on work I had done during my time at IIT-KGP was published in 2021 in IEEE Transactions on Electron Devices [link to paper](https://ieeexplore.ieee.org/abstract/document/9316254). In the summer of 2017, I had the pleasure of working with Prof. Chennupati Jagadish and Dr. Dipankar Chugh at the Australian National University. I also presented my work at IIT Kharagpur at the EMRS Spring Meet in Strasbourg, France.
 
 I have had a lot of hobbies over the years, which I keep dropping and picking up. I play the guitar, write short stories, make funny comics, run and play video games. I'm happy to discuss any of these things over a hot cup of coffee (which I'm also addicted to).
