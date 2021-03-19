@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Tech in Electronics and Electrical Communication Engineering | IIT Kharagpur, 2017
+* M.Tech in Microelectronics and VLSI Design | IIT Kharagpur, 2018
+* M.S. in Computer Science (track: Computing Systems) | Georgia Tech (staring Fall'21)
 
 Work experience
 ======
