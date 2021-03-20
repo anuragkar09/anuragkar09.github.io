@@ -6,7 +6,8 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-<button type="button" name="button" class="btn">[Download .pdf CV](https://anuragkar09.github.io/files/anurag_resume.pdf)</button>
+<button type="button" name="button" color="blue" class="btn">[Download .pdf CV](https://anuragkar09.github.io/files/anurag_resume.pdf)</button>  
+
 Download CV in pdf format [here](https://anuragkar09.github.io/files/anurag_resume.pdf){: .btn .btn-purple} _(Updated Mar'21)_
 {% include base_path %}
 
