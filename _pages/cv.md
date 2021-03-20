@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-[**DOWNLOAD PDF CV**](https://anuragkar09.github.io/files/anurag_resume.pdf){: .btn .btn-purple} _(Updated Mar'21)_
+[**\[DOWNLOAD PDF CV\]**](https://anuragkar09.github.io/files/anurag_resume.pdf)  _(Updated Mar'21)_
 {% include base_path %}
 
 Research Interests
