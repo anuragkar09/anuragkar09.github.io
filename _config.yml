@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "A. Kar"
+title                    : "Anurag's Website"
 title_separator          : "-"
 name                     : &name "Anurag Kar"
 description              : &description "Verification Engineer at ARM"
