@@ -11,7 +11,7 @@ Download CV in pdf format [here](https://anuragkar09.github.io/files/anurag_resu
 
 Education
 ---------
-* **Georgia Institute of Technology**  \| _Atlanta,GA_  
+* **Georgia Institute of Technology**  \| _Atlanta, GA_  
 	M.S. in Computer Science _(Incoming student for Fall'21)_
 * **Indian Institute of Technology - Kharagpur** \| _West Bengal, India_  
 	B.Tech in Electronics and Electrical Communications Engineering _(2017)_  
@@ -33,11 +33,11 @@ Work Experience
 
 Research Experience
 ------------------
-* **Australian National University**  _(May'17 - Jul'17)_
-	_Research Intern (Research School of Physics and Engineering)_
+* **Australian National University**  _(May'17 - Jul'17)_  
+	_Research Intern (Research School of Physics and Engineering)_  
 
-* **IIT Kharagpur**
-	_Student Researcher (VLSI Engineering Lab, Dept. of EECE)_
+* **IIT Kharagpur** _(Jul'16 - May'18)  
+	_Student Researcher (VLSI Engineering Lab, Dept. of EECE)_  
 
 
 Skills
