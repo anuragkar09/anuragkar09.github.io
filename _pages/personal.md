@@ -116,8 +116,8 @@ Australia:
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="250"
-    height="250"
+    width="220"
+    height="220"
   ></iframe>
   <iframe
     src="https://www.instagram.com/p/BULyDS2guFi/embed"
@@ -125,8 +125,8 @@ Australia:
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="250"
-    height="250"
+    width="220"
+    height="220"
   ></iframe>
   <iframe
     src="https://www.instagram.com/p/BT0ZkUjgRgO/embed"
@@ -134,8 +134,8 @@ Australia:
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="250"
-    height="250"
+    width="220"
+    height="220"
   ></iframe>
   <iframe
     src="https://www.instagram.com/p/BVJA03NAmdD/embed"
@@ -143,8 +143,8 @@ Australia:
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="250"
-    height="250"
+    width="220"
+    height="220"
   ></iframe>
 
 </div>      
