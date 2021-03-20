@@ -14,6 +14,7 @@ Oregon, US:
 <!---
 ![image](/images/portlandriver.jpg) ![image](/images/portlandjapanese.jpg)
 -->
+
 <div>
   <iframe
     src="https://www.instagram.com/p/BwP2ot3AbuK/embed"
@@ -24,8 +25,6 @@ Oregon, US:
     width="320"
     height="420"
   ></iframe>
-</div>
-<div>
   <iframe
     src="https://www.instagram.com/p/BwfN-m5gJSg/embed"
     frameborder="0"
@@ -36,13 +35,12 @@ Oregon, US:
     height="420"
   ></iframe>
 </div>
-
 Australia:
 
 
 France and Luxembourg:
 
-Videos
+Video
 -------------------------
 At IIT Kharagpur, I made a bunch of cover music videos with some friends. You can find our YouTube Channel [here](https://www.youtube.com/channel/UCti0frgHULk80SZhvixsRmA)   
 
