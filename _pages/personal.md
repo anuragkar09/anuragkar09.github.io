@@ -34,11 +34,144 @@ I've been lucky to travel to a few countries during my time at IIT Kharagpur and
     width="320"
     height="320"
   ></iframe>
-</div>
-Australia:
+</div>  
 
+**_Australia:_**  
 
-France and Luxembourg:
+<div>
+  <iframe
+    src="https://www.instagram.com/p/BWCG6apgRtG/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="320"
+    height="320"
+  ></iframe>
+  <iframe
+    src="https://www.instagram.com/p/BWBx1oKAb9E//embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="320"
+    height="320"
+  ></iframe>
+  <iframe
+    src="https://www.instagram.com/p/BVb33K7A8C0/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="320"
+    height="320"
+  ></iframe>
+  <iframe
+    src="https://www.instagram.com/p/BVJM7kog3yw/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="320"
+    height="320"
+  ></iframe>
+  <iframe
+    src="https://www.instagram.com/p/BULyDS2guFi/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="320"
+    height="320"
+  ></iframe>
+  <iframe
+    src="https://www.instagram.com/p/BT0ZkUjgRgO/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="320"
+    height="320"
+  ></iframe>
+  <iframe
+    src="https://www.instagram.com/p/BVJA03NAmdD/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="320"
+    height="320"
+  ></iframe>
+
+</div>  
+
+**_France and Luxembourg:_** 
+<div>
+  <iframe
+    src="https://www.instagram.com/p/BUgsIJCg7wK/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="320"
+    height="320"
+  ></iframe>
+  <iframe
+    src="https://www.instagram.com/p/BUhiet2gnWx/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="320"
+    height="320"
+  ></iframe>
+  <iframe
+    src="https://www.instagram.com/p/BUhimMIAU6Y/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="320"
+    height="320"
+  ></iframe>
+  <iframe
+    src="https://www.instagram.com/p/BUhi3WUgGy2/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="320"
+    height="320"
+  ></iframe>
+  <iframe
+    src="https://www.instagram.com/p/BUkUQgxg5h-/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="320"
+    height="320"
+  ></iframe>
+  <iframe
+    src="https://www.instagram.com/p/BUkUefqgrqv/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="320"
+    height="320"
+  ></iframe>
+  <iframe
+    src="https://www.instagram.com/p/BUkUYAOg59u/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="320"
+    height="320"
+  ></iframe>
+
+</div>   
 
 Video
 -------------------------
