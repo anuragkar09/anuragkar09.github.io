@@ -58,7 +58,7 @@ I sometimes make comics based on my experiences as an engineer. I love being an 
   ></iframe>
  </div>      
     
-
+<br/>
 Pictures
 =======================
 I've been lucky to travel to a few countries during my time at IIT Kharagpur and after. Here are some pictures:
@@ -211,7 +211,7 @@ France and Luxembourg:
 
 </div>     
   
-    
+<br/> 
 Videos
 ======================
 At IIT Kharagpur, I made a bunch of cover music videos with some friends. You can find our YouTube Channel [here](https://www.youtube.com/channel/UCti0frgHULk80SZhvixsRmA)   
