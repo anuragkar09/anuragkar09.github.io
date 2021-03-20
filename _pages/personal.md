@@ -17,7 +17,7 @@ I sometimes make comics based on my experiences as an engineer. I love being an 
     allowfullscreen
     scrolling="no"
     width="320"
-    height="377"
+    height="375"
     allowtransparency
   ></iframe>
   <iframe
@@ -27,7 +27,7 @@ I sometimes make comics based on my experiences as an engineer. I love being an 
     scrolling="no"
     allowtransparency
     width="320"
-    height="377"
+    height="375"
   ></iframe>
   <iframe
     src="https://www.instagram.com/p/CH-3QbEpeNc/embed"
@@ -36,7 +36,7 @@ I sometimes make comics based on my experiences as an engineer. I love being an 
     scrolling="no"
     allowtransparency
     width="320"
-    height="377"
+    height="375"
   ></iframe>
   <iframe
     src="https://www.instagram.com/p/CH0BtNhp-cg/embed"
@@ -45,7 +45,7 @@ I sometimes make comics based on my experiences as an engineer. I love being an 
     scrolling="no"
     allowtransparency
     width="320"
-    height="377"
+    height="375"
   ></iframe>
   <iframe
     src="https://www.instagram.com/p/CHyH6wNJiGU/embed"
@@ -54,7 +54,7 @@ I sometimes make comics based on my experiences as an engineer. I love being an 
     scrolling="no"
     allowtransparency
     width="320"
-    height="377"
+    height="375"
   ></iframe>
  </div>      
     
