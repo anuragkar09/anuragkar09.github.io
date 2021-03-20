@@ -6,6 +6,8 @@ main:
     url: /publications/
   - title: "Blog"
     url: /year-archive/
+  - title: "Personal"
+    url: /personal/
       #- title: "Talks"
       #url: /talks/    
 

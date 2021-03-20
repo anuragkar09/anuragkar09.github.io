@@ -25,5 +25,4 @@ News
 * [April'20] I have been accepted into the MS in Computer Science Program for Fall'20 at Georgia Tech (Update: I have deferred my admission to Fall'21 because of the COVID-19 pandemic)
 * [Dec'19] I started my new job at ARM as a CPU Verification Engineer. I will be working on with RIS (Random Instruction Sequence) tools to stress and test the latest ARM IP's
 * [March'19] Travelling to Intel's office in Hillsboro, Oregon for SoC Power On activities
-* [Jul'18] Joined Intel as a System Validation Engineer. I'll be working on Thunderbolt(TM) technology at the Post-Si level.
-
+* [Jul'18] Joined Intel as a System Validation Engineer. I'll be working on Thunderbolt(TM) technology at the Post-Si level
