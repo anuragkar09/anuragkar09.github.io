@@ -10,7 +10,7 @@ Pictures
 -------------------------
 I've been lucky to travel to a few countries during my time at IIT Kharagpur and after. Here are some pictures:
 
-Oregon, US:
+**_Oregon, US:_**
 <!---
 ![image](/images/portlandriver.jpg) ![image](/images/portlandjapanese.jpg)
 -->
@@ -32,7 +32,7 @@ Oregon, US:
     scrolling="no"
     allowtransparency
     width="320"
-    height="420"
+    height="320"
   ></iframe>
 </div>
 Australia:
