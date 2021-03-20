@@ -2,7 +2,7 @@
 permalink: /
 title: ""
 excerpt: "Personal"
-author_profile: true
+author_profile: false
 redirect_from: 
   - /personal/
   - /personal.html
