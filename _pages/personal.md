@@ -23,7 +23,7 @@ Oregon, US:
     scrolling="no"
     allowtransparency
     width="320"
-    height="420"
+    height="320"
   ></iframe>
   <iframe
     src="https://www.instagram.com/p/BwfN-m5gJSg/embed"
