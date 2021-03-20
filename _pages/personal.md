@@ -16,7 +16,7 @@ I sometimes make comics based on my experiences as an engineer. I love being an 
     frameborder="0"
     allowfullscreen
     scrolling="no"
-    width="350"
+    width="330"
     height="400"
     allowtransparency
   ></iframe>
@@ -26,7 +26,7 @@ I sometimes make comics based on my experiences as an engineer. I love being an 
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="350"
+    width="330"
     height="400"
   ></iframe>
   <iframe
@@ -35,7 +35,7 @@ I sometimes make comics based on my experiences as an engineer. I love being an 
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="350"
+    width="330"
     height="400"
   ></iframe>
   <iframe
@@ -44,7 +44,7 @@ I sometimes make comics based on my experiences as an engineer. I love being an 
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="350"
+    width="330"
     height="400"
   ></iframe>
   <iframe
@@ -53,7 +53,7 @@ I sometimes make comics based on my experiences as an engineer. I love being an 
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="350"
+    width="330"
     height="400"
   ></iframe>
  </div>      
