@@ -14,6 +14,17 @@ Oregon, US:
 
 ![image](/images/portlandriver.jpg) ![image](/images/portlandjapanese.jpg)
 
+<div>
+  <iframe
+    src="https://www.instagram.com/p/CLNcpb8pajZ/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="320"
+    height="320"
+  ></iframe>
+</div>
 
 Videos
 -------------------------
