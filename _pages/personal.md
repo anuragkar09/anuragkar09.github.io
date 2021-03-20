@@ -18,7 +18,7 @@ I've been lucky to travel to a few countries during my time at IIT Kharagpur and
     frameborder="0"
     allowfullscreen
     scrolling="no"
-    width="320"
+    width="400"
     height="320"
     allowtransparency
   ></iframe>
@@ -28,7 +28,7 @@ I've been lucky to travel to a few countries during my time at IIT Kharagpur and
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="320"
+    width="400"
     height="320"
   ></iframe>
 </div>  
@@ -60,8 +60,8 @@ I've been lucky to travel to a few countries during my time at IIT Kharagpur and
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="320"
-    height="320"
+    width="300"
+    height="300"
   ></iframe>
   <iframe
     src="https://www.instagram.com/p/BULyDS2guFi/embed"
@@ -69,8 +69,8 @@ I've been lucky to travel to a few countries during my time at IIT Kharagpur and
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="320"
-    height="320"
+    width="300"
+    height="300"
   ></iframe>
   <iframe
     src="https://www.instagram.com/p/BT0ZkUjgRgO/embed"
@@ -78,8 +78,8 @@ I've been lucky to travel to a few countries during my time at IIT Kharagpur and
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="320"
-    height="320"
+    width="300"
+    height="300"
   ></iframe>
   <iframe
     src="https://www.instagram.com/p/BVJA03NAmdD/embed"
@@ -87,8 +87,8 @@ I've been lucky to travel to a few countries during my time at IIT Kharagpur and
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="320"
-    height="320"
+    width="300"
+    height="300"
   ></iframe>
 
 </div>  
