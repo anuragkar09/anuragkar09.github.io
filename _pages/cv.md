@@ -21,15 +21,12 @@ Education
 
 Work experience
 ----------------
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **ARM** - CPU Verification Engineer _(Dec'19 - Present)_
+	* A blah point
+	* A second blah point
+* **Intel Corporation** - System Validation Engineer _(Jul'18 - Dec'19)_
+	* A blah point
+	* A second blah point
   
 Skills
 -------
