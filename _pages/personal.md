@@ -16,7 +16,7 @@ I sometimes make comics based on my experiences as an engineer. I love being an 
     frameborder="0"
     allowfullscreen
     scrolling="no"
-    width="320"
+    width="350"
     height="400"
     allowtransparency
   ></iframe>
@@ -26,7 +26,7 @@ I sometimes make comics based on my experiences as an engineer. I love being an 
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="320"
+    width="350"
     height="400"
   ></iframe>
   <iframe
@@ -35,7 +35,7 @@ I sometimes make comics based on my experiences as an engineer. I love being an 
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="320"
+    width="350"
     height="400"
   ></iframe>
   <iframe
@@ -44,7 +44,7 @@ I sometimes make comics based on my experiences as an engineer. I love being an 
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="320"
+    width="350"
     height="400"
   ></iframe>
   <iframe
@@ -53,10 +53,11 @@ I sometimes make comics based on my experiences as an engineer. I love being an 
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="320"
+    width="350"
     height="400"
   ></iframe>
- </div>  
+ </div>      
+    
 
 Pictures
 =======================
@@ -72,7 +73,7 @@ Oregon, US:
     allowfullscreen
     scrolling="no"
     width="400"
-    height="320"
+    height="290"
     allowtransparency
   ></iframe>
   <iframe
@@ -82,11 +83,13 @@ Oregon, US:
     scrolling="no"
     allowtransparency
     width="400"
-    height="320"
+    height="290"
   ></iframe>
-</div>  
+</div>     
+  
 
-**_Australia:_**  
+Australia: 
+----------------- 
 
 <div>
   <iframe
@@ -113,8 +116,8 @@ Oregon, US:
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="300"
-    height="300"
+    width="250"
+    height="250"
   ></iframe>
   <iframe
     src="https://www.instagram.com/p/BULyDS2guFi/embed"
@@ -122,8 +125,8 @@ Oregon, US:
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="300"
-    height="300"
+    width="250"
+    height="250"
   ></iframe>
   <iframe
     src="https://www.instagram.com/p/BT0ZkUjgRgO/embed"
@@ -131,8 +134,8 @@ Oregon, US:
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="300"
-    height="300"
+    width="250"
+    height="250"
   ></iframe>
   <iframe
     src="https://www.instagram.com/p/BVJA03NAmdD/embed"
@@ -140,13 +143,16 @@ Oregon, US:
     allowfullscreen
     scrolling="no"
     allowtransparency
-    width="300"
-    height="300"
+    width="250"
+    height="250"
   ></iframe>
 
-</div>  
+</div>      
+   
 
-**_France and Luxembourg:_** 
+
+France and Luxembourg:
+---------------------------
 <div>
   <iframe
     src="https://www.instagram.com/p/BUgsIJCg7wK/embed"
@@ -203,8 +209,10 @@ Oregon, US:
     height="320"
   ></iframe>
 
-</div>   
+</div>     
 
+    
+\n
 Videos
 ======================
 At IIT Kharagpur, I made a bunch of cover music videos with some friends. You can find our YouTube Channel [here](https://www.youtube.com/channel/UCti0frgHULk80SZhvixsRmA)   
