@@ -58,7 +58,8 @@ I sometimes make comics based on my experiences as an engineer. I love being an 
   ></iframe>
  </div>      
     
-<br/>
+<br/>   
+
 Pictures
 =======================
 I've been lucky to travel to a few countries during my time at IIT Kharagpur and after. Here are some pictures:
@@ -209,9 +210,8 @@ France and Luxembourg:
     height="320"
   ></iframe>
 
-</div>     
-  
-<br/>
+</div>      
+<br/>   
  
 Videos
 ======================
