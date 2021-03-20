@@ -61,28 +61,32 @@ Presentations
 
 Academic Achievements
 ---------------------
-2019 \| Recognized by the Intel Thunderbolt team in Oregon for contribution to the SoC power-on activities   
-2017 \| Chennupati and Vidya Jagadish Endowment for research at the Australian National University   
-2014 \| National Initiative for Undergraduate Sciences (NIUS) Physics scholar   
-2013 \| Among 12 students from the state of Gujarat selected for the Indian National Physics Olympiad   
-2009 \| Duke University Talent Identification Program scholar (course: Java for Video Games)   
+_2019_ \| Recognized by the Intel Thunderbolt team in Oregon for contribution to the SoC power-on activities   
+_2017_ \| Chennupati and Vidya Jagadish Endowment for research at the Australian National University   
+_2014_ \| National Initiative for Undergraduate Sciences (NIUS) Physics scholar   
+_2013_ \| Among 12 students from the state of Gujarat selected for the Indian National Physics Olympiad   
+_2009_ \| Duke University Talent Identification Program scholar (course: Java for Video Games)   
 
-#  <ul>{% for post in site.publications %}
-#    {% include archive-single-cv.html %}
-#  {% endfor %}</ul>
+
+<!---
+ <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
   
-#Talks
-#--------
-#  <ul>{% for post in site.talks %}
-#    {% include archive-single-talk-cv.html %}
-#  {% endfor %}</ul>
+Talks
+--------
+  <ul>{% for post in site.talks %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}</ul>
   
-#Teaching
-#----------
-#  <ul>{% for post in site.teaching %}
-#    {% include archive-single-cv.html %}
-#  {% endfor %}</ul>
+Teaching
+----------
+  <ul>{% for post in site.teaching %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
   
-#Service and leadership
+Service and leadership
 -------------
-#* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams
+
+-->
