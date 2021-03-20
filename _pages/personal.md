@@ -6,11 +6,64 @@ author_profile: true
 redirect_from:
   - /personal
 ---
+
+Comics
+=======================
+I sometimes make comics based on my experiences as an engineer. I love being an engineer ofcourse, it's just a little observational humor at nobody's expense :) 
+<div>
+  <iframe
+    src="https://www.instagram.com/p/CLNcpb8pajZ/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    width="320"
+    height="400"
+    allowtransparency
+  ></iframe>
+  <iframe
+    src="https://www.instagram.com/p/CJMruvNJeeJ/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="320"
+    height="400"
+  ></iframe>
+  <iframe
+    src="https://www.instagram.com/p/CH-3QbEpeNc/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="320"
+    height="400"
+  ></iframe>
+  <iframe
+    src="https://www.instagram.com/p/CH0BtNhp-cg/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="320"
+    height="400"
+  ></iframe>
+  <iframe
+    src="https://www.instagram.com/p/CHyH6wNJiGU/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="320"
+    height="400"
+  ></iframe>
+ </div>  
+
 Pictures
--------------------------
+=======================
 I've been lucky to travel to a few countries during my time at IIT Kharagpur and after. Here are some pictures:
 
-**_Oregon, US:_**
+Oregon, US:
+-------------
 
 <div>
   <iframe
@@ -152,8 +205,8 @@ I've been lucky to travel to a few countries during my time at IIT Kharagpur and
 
 </div>   
 
-Video
--------------------------
+Videos
+======================
 At IIT Kharagpur, I made a bunch of cover music videos with some friends. You can find our YouTube Channel [here](https://www.youtube.com/channel/UCti0frgHULk80SZhvixsRmA)   
 
 We are now physically away from each other, but you can still find some videos uploaded infrequently by some of us collaborating with the power of the world wide web.
