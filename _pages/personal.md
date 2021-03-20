@@ -8,9 +8,12 @@ redirect_from:
 ---
 Pictures
 -------------------------
-I've been lucky to travel to a few countries during my time at IIT Kharagpur and after. Here are some pictures from some of those places:
+I've been lucky to travel to a few countries during my time at IIT Kharagpur and after. Here are some pictures:
 
-![image1](/images/profile_v2.png "Profile 1") ![image2]*Caption 1*(/images/profile_v2.png "Profile 2")*Caption 2*
+Oregon, US:
+
+![image](/image/portlandriver.jpg =300x300) ![image](/image/portlandjapanese.jpg =300x300)
+
 
 Videos
 -------------------------
