@@ -36,7 +36,7 @@ Research Experience
 * **Australian National University**  _(May'17 - Jul'17)_  
 	_Research Intern (Research School of Physics and Engineering)_  
 
-* **IIT Kharagpur** _(Jul'16 - May'18)  
+* **IIT Kharagpur** _(Jul'16 - May'18)_      
 	_Student Researcher (VLSI Engineering Lab, Dept. of EECE)_  
 
 
