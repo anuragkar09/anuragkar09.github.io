@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
+---------
 * **Georgia Institute of Technology**	 		 _Atlanta,GA_  
 	M.S. in Computer Science _(Incoming student for Fall'21)_
 * **Indian Institute of Technology - Kharagpur** 	 _West Bengal, India_  
@@ -20,7 +20,7 @@ Education
 	_GPA (joint for B.Tech and M.Tech): 8.8/10_    
 
 Work experience
-======
+----------------
 * Summer 2015: Research Assistant
   * Github University
   * Duties included: Tagging issues
@@ -32,7 +32,7 @@ Work experience
   * Supervisor: Professor Hub
   
 Skills
-======
+-------
 * Skill 1
 * Skill 2
   * Sub-skill 2.1
@@ -41,23 +41,23 @@ Skills
 * Skill 3
 
 Publications
-======
+-------------
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Talks
-======
+--------
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
 Teaching
-======
+----------
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Service and leadership
-======
+-------------
 * Currently signed in to 43 different slack teams
