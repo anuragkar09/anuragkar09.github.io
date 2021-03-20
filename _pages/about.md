@@ -21,7 +21,7 @@ I have had a lot of hobbies over the years, which I keep dropping and picking up
 
 News
 ------
-* [Dec'20] Our [paper]((https://ieeexplore.ieee.org/abstract/document/9316254) based on my work on RGO+Ni2O3 nanocompisite for heavy metal sensing applications at IIT Kharagpur has been published in IEEE Transactions on Electron Devices
+* [Dec'20] Our [paper](https://ieeexplore.ieee.org/abstract/document/9316254) based on my work on RGO+Ni2O3 nanocompisite for heavy metal sensing applications at IIT Kharagpur has been published in IEEE Transactions on Electron Devices
 * [April'20] I have been accepted into the MS in Computer Science Program for Fall'20 at Georgia Tech (Update: I have deferred my admission to Fall'21 because of the COVID-19 pandemic)
 * [Dec'19] I started my new job at ARM as a CPU Verification Engineer. I will be working on with RIS (Random Instruction Sequence) tools to stress and test the latest ARM IP's
 * [March'19] Travelling to Intel's office in Hillsboro, Oregon for SoC Power On activities
