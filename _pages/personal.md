@@ -12,7 +12,7 @@ I've been lucky to travel to a few countries during my time at IIT Kharagpur and
 
 Oregon, US:
 
-![image](/images/portlandriver.jpg =300x300) ![image](/images/portlandjapanese.jpg =300x300)
+![image](/images/portlandriver.jpg) ![image](/images/portlandjapanese.jpg)
 
 
 Videos
