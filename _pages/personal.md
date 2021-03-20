@@ -211,7 +211,8 @@ France and Luxembourg:
 
 </div>     
   
-<br/> 
+<br/>
+ 
 Videos
 ======================
 At IIT Kharagpur, I made a bunch of cover music videos with some friends. You can find our YouTube Channel [here](https://www.youtube.com/channel/UCti0frgHULk80SZhvixsRmA)   
