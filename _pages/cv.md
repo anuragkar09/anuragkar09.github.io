@@ -11,9 +11,13 @@ redirect_from:
 
 Education
 ======
-* B.Tech in Electronics and Electrical Communication Engineering | IIT Kharagpur, 2017
-* M.Tech in Microelectronics and VLSI Design | IIT Kharagpur, 2018
-* M.S. in Computer Science (track: Computing Systems) | Georgia Tech (staring Fall'21)
+* **Georgia Institute of Technology**	 		 _Atlanta,GA_
+	M.S. in Computer Science _(Incoming student for Fall'21)_
+* **Indian Institute of Technology - Kharagpur** 	 _West Bengal, India_
+	B.Tech in Electronics and Electrical Communications Engineering _(2017)_
+	M.Tech in Microelectronics and VLSI Design _(2018)_
+	Advisor: Prof. Prasanta Kumar Guha 
+	_GPA (joint for B.Tech and M.Tech): 8.8/10_
 
 Work experience
 ======
