@@ -11,7 +11,7 @@ redirect_from:
 I am a CPU Verification Engineer at ARM working on verifying the architectural and microarchitectural validity of the latest ARM processor designs. Starting Fall'21 I will be joining Georgia Tech as an MS in Computer Science student specializing in Computing Systems.
 
 
-More About me
+More About Me
 ------
 I previously worked for Intel in their Thunderbolt Team and was part of one of the first teams in the world to work on USB 4.0. I had an opportunity to travel to the USA to witness and be part of the birth of Intel's (at the time) latest SoC Platform. My areas of interest as an MSCS student at Georgia Tech will be Computer Architecture, Hardware Security and High Performance Computing. I also received acceptances from Columbia University and Pensylvania State University. 
 
