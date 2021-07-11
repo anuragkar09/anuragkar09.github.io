@@ -12,6 +12,15 @@ Comics
 I sometimes make comics based on my experiences as an engineer. I love being an engineer ofcourse, it's just a little observational humor at nobody's expense :) 
 <div>
   <iframe
+    src="https://www.instagram.com/p/CREvftmJDB2/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    width="320"
+    height="375"
+    allowtransparency
+  ></iframe>
+  <iframe
     src="https://www.instagram.com/p/CLNcpb8pajZ/embed"
     frameborder="0"
     allowfullscreen
