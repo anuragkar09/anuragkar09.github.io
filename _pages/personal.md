@@ -77,7 +77,7 @@ Atlanta, GA, US:
 ----------------
 <div>
   <iframe
-    src="https://www.instagram.com/p/CS73fFlFm-H//embed"
+    src="https://www.instagram.com/p/CS73fFlFm-H/embed"
     frameborder="0"
     allowfullscreen
     scrolling="no"
