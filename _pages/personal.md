@@ -73,6 +73,28 @@ Pictures
 =======================
 I've been lucky to travel to a few countries during my time at IIT Kharagpur and after. Here are some pictures:
 
+Atlanta, GA, US:
+----------------
+<div>
+  <iframe
+    src="https://www.instagram.com/p/CS73fFlFm-H//embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    width="400"
+    height="290"
+    allowtransparency
+  ></iframe>
+  <iframe
+    src="https://www.instagram.com/p/CTicnU3D8yL/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="400"
+    height="290"
+  ></iframe>
+</div>  
 Oregon, US:
 -------------
 
