@@ -18,7 +18,7 @@ Computer Architecture \| High Performance Computing \| Hardware Security \| Oper
 Education
 ---------
 * **Georgia Institute of Technology**  \| _Atlanta, GA_  
-	M.S. in Computer Science _(Incoming student for Fall'21)_
+	M.S. in Computer Science _(Specialization: Computing Systems)_
 * **Indian Institute of Technology - Kharagpur** \| _West Bengal, India_  
 	B.Tech in Electronics and Electrical Communications Engineering _(2017)_  
 	M.Tech in Microelectronics and VLSI Design _(2018)_  
@@ -27,7 +27,7 @@ Education
 
 Work Experience
 ----------------
-* **ARM** - CPU Verification Engineer _(Dec'19 - Present)_
+* **ARM** - CPU Verification Engineer _(Dec'19 - Aug'21)_
 	* Responsible for verifiying ARM's latest cores with RIS (Random Instruction Sequence) tools on emulator and FPGA platforms
 	* Used shell scripting, python and perl to automate regression, debug tasks and complicated manual flows
 	* Wrote stimulus in C and ARM Assembly language to stress specific blocks of the core design
@@ -39,6 +39,10 @@ Work Experience
 
 Research Experience
 ------------------
+* **HPArch Lab, Georgia Tech** _(Aug'21 - Present)_
+	_Graduate Student Researcher (advisor: Prof. Hyesoon Kim)_
+	* Working with Prof. Hyesoon Kim and Yonghae Kim to implement a novel bounds checking mechanism on FPGA using Chisel and RISC-V BOOM SoC Generator to mitigate memory safety errors in C/C++
+	* Working on security analysis using Juliet test suite on gem5 and later on RISC-V FPGA implementation
 * **Australian National University**  _(May'17 - Jul'17)_  
 	_Research Intern (Research School of Physics and Engineering)_  
 	* Worked with Prof. Chennupati Jagadish and Dr. Dipankar Chugh to investigate single photon emitters from NV centres in hexagonal Boron Nitride
