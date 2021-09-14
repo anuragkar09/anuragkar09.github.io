@@ -40,7 +40,7 @@ Work Experience
 Research Experience
 ------------------
 * **HPArch Lab, Georgia Tech** _(Aug'21 - Present)_
-	_Graduate Student Researcher (advisor: Prof. Hyesoon Kim)_
+	_Graduate Student Researcher (advisor: Prof. Hyesoon Kim)_ 
 	* Working with Prof. Hyesoon Kim and Yonghae Kim to implement a novel bounds checking mechanism on FPGA using Chisel and RISC-V BOOM SoC Generator to mitigate memory safety errors in C/C++
 	* Working on security analysis using Juliet test suite on gem5 and later on RISC-V FPGA implementation
 * **Australian National University**  _(May'17 - Jul'17)_  
