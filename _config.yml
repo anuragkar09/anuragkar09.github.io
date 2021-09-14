@@ -84,7 +84,7 @@ author:
   avatar           : "profile_v2.png"
   bio              : "I am an MS in Computer Science Student at Georgia Tech interested in the areas of computer architecture and memory security"
   location         : "Atlanta, GA"
-  employer         : ""
+  employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=4jP4srAAAAAJ&hl=en"
   email            : "anurag.kar@gatech.edu"
