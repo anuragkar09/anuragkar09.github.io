@@ -22,6 +22,7 @@ I have had a lot of hobbies over the years, which I keep dropping and picking up
 
 News
 ------
+* _[Nov'21]_ Serving on the [Artifact Evaluation committee](https://hpca-conf.org/2022/artifact-evaluation/) of HPCA 2022
 * _[Aug'21]_ Started grad school at Georgia Tech. Working with Prof. Hyesoon Kim in the area of memory security
 * _[Dec'20]_ Our [paper](https://ieeexplore.ieee.org/abstract/document/9316254) based on my work on RGO+Ni2O3 nanocompisite for heavy metal sensing applications at IIT Kharagpur has been published in IEEE Transactions on Electron Devices
 * _[April'20]_ I have been accepted into the MS in Computer Science Program for Fall'20 at Georgia Tech (Update: I have deferred my admission to Fall'21 because of the COVID-19 pandemic)
