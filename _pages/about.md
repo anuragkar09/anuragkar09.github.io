@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Master's student in Computer Science at Georgia Tech. I'm currently working with [Prof. Hyesoon Kim](https://www.cc.gatech.edu/~hyesoon/) in the [HPArch Lab](http://hparch.gatech.edu) at Georgia Tech. I'm currently working on a project in the area of memory security specifically bounds checking mechanisms for unsafe languages like C and C++. 
+I'm a Master's student in Computer Science at Georgia Tech. I'm currently working with [Prof. Hyesoon Kim](https://www.cc.gatech.edu/~hyesoon/) in the [HPArch Lab](http://hparch.gatech.edu) at Georgia Tech. My main area of interest is architectural security and computer architecture in general. 
 
 
 More About Me
@@ -22,6 +22,7 @@ I have had a lot of hobbies over the years, which I keep dropping and picking up
 
 News
 ------
+* _[Jan'22]_ Received internship offers from Apple and Qualcomm for Summer 2022
 * _[Nov'21]_ Serving on the [Artifact Evaluation Committee](https://hpca-conf.org/2022/artifact-evaluation/) for HPCA 2022
 * _[Aug'21]_ Started grad school at Georgia Tech. Working with [Prof. Hyesoon Kim](https://www.cc.gatech.edu/~hyesoon/) in the area of memory security
 * _[Dec'20]_ Our [paper](https://ieeexplore.ieee.org/abstract/document/9316254) based on my work on RGO+Ni2O3 nanocompisite for heavy metal sensing applications at IIT Kharagpur has been published in IEEE Transactions on Electron Devices
