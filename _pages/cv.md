@@ -19,6 +19,7 @@ Education
 ---------
 * **Georgia Institute of Technology**  \| _Atlanta, GA_  
 	M.S. in Computer Science _(Specialization: Computing Systems)_
+	_GPA : 4.0/4.0_
 * **Indian Institute of Technology - Kharagpur** \| _West Bengal, India_  
 	B.Tech in Electronics and Electrical Communications Engineering _(2017)_  
 	M.Tech in Microelectronics and VLSI Design _(2018)_  
@@ -36,6 +37,10 @@ Work Experience
 	* Received a formal recognition for contribution to the latest Intel SoC bring-up in Hillsboro, Oregon
 	* Part of one of the first teams to test USB 4.0 compliance in the world
 
+Teaching and Academic Service
+-----------------------------
+* Graduate Teaching Assistant for CS3220 Processor Design at Georgia Tech
+* Served on the Artifact Evaluation Committee for HPCA 2022
 
 Research Experience
 ------------------
