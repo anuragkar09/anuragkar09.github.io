@@ -22,6 +22,7 @@ I have had a lot of hobbies over the years, which I keep dropping and picking up
 
 News
 ------
+* _[Feb'22]_ Accepted to the PhD program at Georgia Tech. Will be continuing on as a MS/PhD student.
 * _[Jan'22]_ Will be joining Qualcomm as an intern during Summer '22. Also received an offer from Apple.
 * _[Nov'21]_ Serving on the [Artifact Evaluation Committee](https://hpca-conf.org/022/artifact-evaluation/) for HPCA 2022
 * _[Aug'21]_ Started grad school at Georgia Tech. Working with [Prof. Hyesoon Kim](https://www.cc.gatech.edu/~hyesoon/) in the area of memory security
