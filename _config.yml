@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Anurag's Website"
 title_separator          : "-"
 name                     : &name "Anurag Kar"
-description              : &description "MS in Computer Science @ Georgia Tech"
+description              : &description "PhD in Computer Science @ Georgia Tech"
 url                      : https://anuragkar09.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "anuragkar09/anuragkar09.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Anurag Kar"
   avatar           : "profile_v2.png"
-  bio              : "I am an MS in Computer Science Student at Georgia Tech interested in the areas of computer architecture and memory security"
+  bio              : "I am an PhD student in Computer Science at Georgia Tech. I'm interested in the areas of computer architecture and hardware security."
   location         : "Atlanta, GA"
   employer         : 
   pubmed           : 
