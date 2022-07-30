@@ -12,11 +12,14 @@ redirect_from:
 
 Research Interests
 ------------------
-Computer Architecture \| High Performance Computing \| Hardware Security \| Operating Systems \| Machine Learning applications in Computer Architecture
+Computer Architecture \| Hardware Security \| Operating Systems \| Machine Learning applications in Computer Architecture
 
 
 Education
 ---------
+* **Georgia Institute of Technology**  \| _Atlanta, GA_  
+	Ph.D. in Computer Science _(Advisor: Dr. Hyesoon Kim)_
+	_GPA : 4.0/4.0_
 * **Georgia Institute of Technology**  \| _Atlanta, GA_  
 	M.S. in Computer Science _(Specialization: Computing Systems)_
 	_GPA : 4.0/4.0_
@@ -28,6 +31,8 @@ Education
 
 Work Experience
 ----------------
+* **Qualcomm** - Interim Engineering Intern _(Dec'19 - Aug'21)_
+	* Functional CPU Modelling for Qualcomm's next generation CPUs. Adding new features and debugging existing issues with the disassembler and decoder block.
 * **ARM** - CPU Verification Engineer _(Dec'19 - Aug'21)_
 	* Responsible for verifiying ARM's latest cores with RIS (Random Instruction Sequence) tools on emulator and FPGA platforms
 	* Used shell scripting, python and perl to automate regression, debug tasks and complicated manual flows
@@ -76,6 +81,7 @@ Presentations
 
 Academic Achievements
 ---------------------
+_2022_ \| Design Automation Conference (DAC) Young Fellow 2022 (Travel Grant + Poster Presentation)
 _2019_ \| Recognized by the Intel Thunderbolt team in Oregon for contribution to the SoC power-on activities   
 _2017_ \| Chennupati and Vidya Jagadish Endowment for research at the Australian National University   
 _2014_ \| National Initiative for Undergraduate Sciences (NIUS) Physics scholar   
