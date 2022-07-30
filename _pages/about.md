@@ -22,7 +22,7 @@ I have had a lot of hobbies over the years, which I keep dropping and picking up
 
 News
 ------
-* _[Apr'22]_ Received DAC Young Fellow '22 award. Comes with a travel grant + DAC conference registration worth $1000. Invited to attend IEEE Design Automation Conference and present a poster about my research.
+* _[Apr'22]_ Received DAC Young Fellow '22 award. Comes with a travel grant + DAC conference registration worth $1000. Invited to attend IEEE Design Automation Conference and present a poster about my research. [Georgia Tech News](https://www.ece.gatech.edu/news/659659/georgia-tech-faculty-and-students-win-awards-present-research-design-automation)
 * _[Feb'22]_ Accepted to the PhD program at Georgia Tech. Will be continuing on as a MS/PhD student.
 * _[Jan'22]_ Will be joining Qualcomm as an intern during Summer '22. Also received an offer from Apple.
 * _[Nov'21]_ Serving on the [Artifact Evaluation Committee](https://hpca-conf.org/022/artifact-evaluation/) for HPCA 2022
