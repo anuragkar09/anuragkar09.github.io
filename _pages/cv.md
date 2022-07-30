@@ -81,7 +81,7 @@ Presentations
 
 Academic Achievements
 ---------------------
-_2022_ \| Design Automation Conference (DAC) Young Fellow 2022 (Travel Grant + Poster Presentation)
+_2022_ \| Design Automation Conference (DAC) Young Fellow 2022 (Travel Grant + Poster Presentation)    
 _2019_ \| Recognized by the Intel Thunderbolt team in Oregon for contribution to the SoC power-on activities   
 _2017_ \| Chennupati and Vidya Jagadish Endowment for research at the Australian National University   
 _2014_ \| National Initiative for Undergraduate Sciences (NIUS) Physics scholar   
