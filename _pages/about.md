@@ -10,13 +10,10 @@ redirect_from:
 
 I'm a PhD student in Computer Science at Georgia Tech. I'm currently working with [Prof. Hyesoon Kim](https://www.cc.gatech.edu/~hyesoon/) in the [HPArch Lab](http://hparch.gatech.edu) at Georgia Tech. My main area of interest is architectural security and computer architecture in general. 
 
-<a class="twitter-timeline" data-width="350" data-height="600" data-theme="light" href="https://twitter.com/anuragkar09?ref_src=twsrc%5Etfw">Tweets by anuragkar09</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 More About Me
 ------
-I previously worked for ARM as a CPU Verification Engineer and got to work closely with the ARM ISA. I ran RIS tools on FPGA platform and verified the behaviour of ARM's latest CPU cores. I also worked for Intel in their Thunderbolt Team and was part of one of the first teams in the world to work on USB 4.0. I had an opportunity to travel to the USA to witness and be part of the birth of Intel's (at the time) latest SoC Platform. My areas of interest as an MSCS student at Georgia Tech Are Computer Architecture, Hardware Security and High Performance Computing. I had also received acceptances from Columbia University and Pensylvania State University.
-
-I graduated from the Indian Institute of Technology, Kharagpur (IIT-KGP) with a dual degree B.Tech and M.Tech degree in EECE in 2018. My M.Tech specialization was Microelectronics and VLSI Design and my research interest at the time was nanoelectronics and electronic materials. A [paper](https://ieeexplore.ieee.org/abstract/document/9316254) based on work I had done during my time at IIT-KGP was published in 2021 in IEEE Transactions on Electron Devices. In the summer of 2017, I had the pleasure of working with Prof. Chennupati Jagadish and Dr. Dipankar Chugh at the Australian National University. I also presented my work at IIT Kharagpur at the EMRS Spring Meet in Strasbourg, France.
+I previously worked for ARM as a CPU Verification Engineer and got to work closely with the ARM ISA. I ran RIS tools on FPGA platform and verified the behaviour of ARM's latest CPU cores. I also worked for Intel in their Thunderbolt Team and was part of one of the first teams in the world to work on USB 4.0. I had an opportunity to travel to the USA to witness and be part of the birth of Intel's (at the time) latest SoC Platform. I graduated from the Indian Institute of Technology, Kharagpur (IIT-KGP) with a dual degree B.Tech and M.Tech degree in EECE in 2018.
 
 I have had a lot of hobbies over the years, which I keep dropping and picking up. I play the guitar, write short stories, make funny comics, run and play video games. I'm happy to discuss any of these things over a hot cup of coffee (which I'm also addicted to).
 
