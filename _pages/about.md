@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-<div class="special-class" markdown="1" style="position:absolute; left:200px; top:20px;">
+<div class="special-class" markdown="1" style="position:absolute; left:1500px; top:0px;">
 <a class="twitter-timeline" data-width="350" data-height="600" data-theme="light" href="https://twitter.com/anuragkar09?ref_src=twsrc%5Etfw">Tweets by anuragkar09</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
   
