@@ -8,9 +8,15 @@ redirect_from:
   - /about.html
 ---
 
+
+<div class="special-class" markdown="1">>
+<a class="twitter-timeline" data-width="350" data-height="600" data-theme="light" href="https://twitter.com/anuragkar09?ref_src=twsrc%5Etfw">Tweets by anuragkar09</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+  
+<div class="special-class" markdown="1">
 I'm a PhD student in Computer Science at Georgia Tech. I'm currently working with [Prof. Hyesoon Kim](https://www.cc.gatech.edu/~hyesoon/) in the [HPArch Lab](http://hparch.gatech.edu) at Georgia Tech. My main area of interest is architectural security and computer architecture in general. 
 
-<a class="twitter-timeline" data-width="350" data-height="600" data-theme="light" href="https://twitter.com/anuragkar09?ref_src=twsrc%5Etfw">Tweets by anuragkar09</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 More About Me
 ------
@@ -31,3 +37,4 @@ News
 * _[Dec'19]_ I started my new job at ARM as a CPU Verification Engineer. I will be working on with RIS (Random Instruction Sequence) tools to stress and test the latest ARM IP's
 * _[Mar'19]_ Travelling to Intel's office in Hillsboro, Oregon for SoC Power On activities
 * _[Jul'18]_ Joined Intel as a System Validation Engineer. I'll be working on Thunderbolt(TM) technology at the Post-Si level
+</div>
