@@ -6,8 +6,8 @@ main:
     url: /publications/
       #- title: "Blog"
       #url: /year-archive/
-  - title: "Pictures & Comics"
-    url: /personal/
+      #- title: "Pictures & Comics"
+      #url: /personal/
       #- title: "Talks"
       #url: /talks/    
 
