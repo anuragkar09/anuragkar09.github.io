@@ -28,7 +28,7 @@ I have had a lot of hobbies over the years, which I keep dropping and picking up
 News
 ------
 <style>
-  table th td {
+  table {
     border: none !important;
   }
 </style>
