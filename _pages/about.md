@@ -31,6 +31,9 @@ News
   table {
     border: none !important;
   }
+  td {
+    border: none !important;
+  }
 </style>
 <table>
   <tbody>
