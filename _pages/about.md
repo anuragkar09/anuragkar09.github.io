@@ -28,22 +28,22 @@ I have had a lot of hobbies over the years, which I keep dropping and picking up
 News
 ------
 <style>
-  table td {
+  table th td {
     border: none !important;
   }
 </style>
 <table>
   <tbody>
     <tr>
-      <td>Oct'22</td>
+      <td><b>Oct'22</b></td>
       <td>Serving as submission chair for <a href="https://iscaconf.org/isca2023/">ISCA 2023</a></td>
     </tr>
     <tr>
-      <td>Oct'22</td>
+      <td><b>Oct'22</b></td>
       <td>Gave a short presentation at <a href="https://nocs2022.github.io/program.html">NOCS'22</a> about our work NOICER: A system level approach to mitigating timing side channel attacks on the interconnect</td>
     </tr>
     <tr>
-      <td>Apr'22</td>
+      <td><b>Apr'22</b></td>
       <td>Received DAC Young Fellow '22 award. Comes with a travel grant + DAC conference registration worth $1000. Invited to attend IEEE Design Automation Conference and present a poster about my research <a href="https://www.ece.gatech.edu/news/659659/georgia-tech-faculty-and-students-win-awards-present-research-design-automation">(Georgia Tech News)</a></td>
     </tr>
   </tbody>
