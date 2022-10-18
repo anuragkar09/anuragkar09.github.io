@@ -27,11 +27,23 @@ I have had a lot of hobbies over the years, which I keep dropping and picking up
 
 News
 ------
-
-aa|bb|cc
---|--|--
-ee|ff|gg 
-
+<style>
+  table td {
+    border: none !important;
+  }
+</style>
+<table>
+  <tbody>
+    <tr>
+      <td>Column One</td>
+      <td>Column One</td>
+    </tr>
+    <tr>
+      <td>Content of column one</td>
+      <td>Content of column two</td>
+    </tr>
+  </tbody>
+</table>
 
 
 _[Oct'22]_  Serving as submission chair for [ISCA 2023](https://iscaconf.org/isca2023/)
