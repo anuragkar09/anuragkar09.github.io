@@ -29,7 +29,7 @@ News
 ------
 <style>
 td, th {
-   border: none!important;
+   border: none;
 }
 </style>
 
