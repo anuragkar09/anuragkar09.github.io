@@ -83,10 +83,8 @@ author:
   name             : "Anurag Kar"
   avatar           : "unnamed.jpg"
   bio              : "PhD student at Georgia Tech researching computer architecture and security."
-  location         : >
-                    KACB 2337
-                    Georgia Tech
-  employer         : 
+  location         : "KACB 2337, Georgia Tech"
+  employer         : "Atlanta, GA"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=4jP4srAAAAAJ&hl=en"
   email            : "anurag.kar@gatech.edu"
