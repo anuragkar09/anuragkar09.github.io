@@ -17,6 +17,9 @@ redirect_from:
 I'm a PhD student in Computer Science at Georgia Tech. I'm currently working with [Prof. Hyesoon Kim](https://www.cc.gatech.edu/~hyesoon/) in the [HPArch Lab](http://hparch.gatech.edu) at Georgia Tech. My main area of interest is architectural security and computer architecture in general. 
 
 
+### Research
+
+I'm interested in working at the intersection of computer architecture and hardware security, specifically in the area of side-channel attacks and defenses as well as memory safety. My recent work involves mitigating timing based side-channel attacks on the interconnect using a randomization based system-level approach. This paper is currently under submission at a conference awaiting reviews. I am currently also looking into GPU accelerated RowHammer attacks and their defenses, as well as potential defenses for PACMAN-style speculative execution attacks.
 
 ### More About Me
 
@@ -24,9 +27,6 @@ I previously worked for ARM as a CPU Verification Engineer and got to work close
 
 I have had a lot of hobbies over the years, which I keep dropping and picking up. I play the guitar, write short stories, make funny comics, run and play video games. I'm happy to discuss any of these things over a hot cup of coffee (which I'm also addicted to).
 
-### Research
-
-I'm interested in working at the intersection of computer architecture and hardware security, specifically in the area of side-channel attacks and defenses as well as memory safety. My recent work involves mitigating timing based side-channel attacks on the interconnect using a randomization based system-level approach. This paper is currently under submission at a conference awaiting reviews. I am currently also looking into GPU accelerated RowHammer attacks and their defenses, as well as potential defenses for PACMAN-style speculative execution attacks.
 
 ### News
 
