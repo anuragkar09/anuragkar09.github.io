@@ -38,6 +38,10 @@ I have had a lot of hobbies over the years, which I keep dropping and picking up
 <table>
   <tbody>
     <tr>
+      <td><b>Feb'23</b></td>
+      <td>I will be joining AMD Research as Research Intern for the summer of 2023</td>
+    </tr>
+    <tr>
       <td><b>Oct'22</b></td>
       <td>Serving as submission chair for <a href="https://iscaconf.org/isca2023/">ISCA 2023</a></td>
     </tr>
