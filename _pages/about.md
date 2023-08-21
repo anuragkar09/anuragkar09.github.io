@@ -21,13 +21,6 @@ I'm a PhD student in Computer Science at Georgia Tech. I'm currently working wit
 
 I'm interested in working at the intersection of computer architecture and hardware security, specifically in the area of side-channel attacks and defenses as well as memory safety. My recent work involves mitigating timing based side-channel attacks on the interconnect using a randomization based system-level approach. This paper is currently under submission at a conference awaiting reviews. I am currently also looking into GPU accelerated RowHammer attacks and their defenses, as well as potential defenses for PACMAN-style speculative execution attacks.
 
-### More About Me
-
-I previously worked for ARM as a CPU Verification Engineer and got to work closely with the ARM ISA. I ran RIS tools on FPGA platform and verified the behaviour of ARM's latest CPU cores. I also worked for Intel in their Thunderbolt Team and was part of one of the first teams in the world to work on USB 4.0. I had an opportunity to travel to the USA to witness and be part of the birth of Intel's (at the time) latest SoC Platform. I graduated from the Indian Institute of Technology, Kharagpur (IIT-KGP) with a dual degree B.Tech and M.Tech degree in EECE in 2018.
-
-I have had a lot of hobbies over the years, which I keep dropping and picking up. I play the guitar, write short stories, make funny comics, run and play video games. I'm happy to discuss any of these things over a hot cup of coffee (which I'm also addicted to).
-
-
 ### News
 
 <style>
