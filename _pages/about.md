@@ -8,10 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-
-<div class="special-class" markdown="1" style="position:absolute; left:1450px; top:140px;">
-<a class="twitter-timeline" data-width="300" data-height="600" data-theme="light" href="https://twitter.com/anuragkar09?ref_src=twsrc%5Etfw">Tweets by anuragkar09</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
   
 <div class="special-class" markdown="1">
 I'm a PhD student in Computer Science at Georgia Tech. I'm currently working with [Prof. Hyesoon Kim](https://www.cc.gatech.edu/~hyesoon/) in the [HPArch Lab](http://hparch.gatech.edu) at Georgia Tech. My main area of interest is architectural security and computer architecture in general. 
