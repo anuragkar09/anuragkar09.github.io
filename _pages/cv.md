@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-[**\[DOWNLOAD PDF CV\]**](https://anuragkar09.github.io/files/anurag_resume.pdf)  _(Updated Sept'21)_
+[**\[DOWNLOAD PDF\]**](https://anuragkar09.github.io/files/anurag_resume.pdf)  _(Updated Oct'23)_
 {% include base_path %}
 
 
