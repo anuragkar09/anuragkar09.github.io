@@ -9,7 +9,7 @@ author_profile: true
 Publications
 ==============
 
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fnetwork%2Ffiles%2FJxAtX7untcbCEL5iZ&noBootstrap=1&jsonp=1&fullnames=1"></script>
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fnetwork%2Ffiles%2FJxAtX7untcbCEL5iZ&noBootstrap=1&jsonp=1&fullnames=1&hidemenu=true"></script>
 
 Presentations
 ==============
