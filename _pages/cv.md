@@ -12,7 +12,7 @@ redirect_from:
 
 
 
-<iframe src="https://anuragkar09.github.io/files/anurag_resume.pdf#view=fit" style="border: none;" width="100%" height="100%"></iframe>
+<iframe src="https://anuragkar09.github.io/files/anurag_resume.pdf#view=fit" style="border: none;" width="100%" height="1000px"></iframe>
 
 
 
