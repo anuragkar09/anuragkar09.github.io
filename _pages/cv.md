@@ -10,6 +10,12 @@ redirect_from:
 [**\[DOWNLOAD PDF CV\]**](https://anuragkar09.github.io/files/anurag_resume.pdf)  _(Updated Sept'21)_
 {% include base_path %}
 
+
+
+<embed src="http://example.com/the.pdf](https://anuragkar09.github.io/files/anurag_resume.pdf" width="500" height="375" 
+ type="application/pdf">
+
+
 Research Interests
 ------------------
 Computer Architecture \| Hardware Security \| Operating Systems \| Machine Learning applications in Computer Architecture
