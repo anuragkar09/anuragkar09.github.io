@@ -12,8 +12,7 @@ redirect_from:
 
 
 
-<embed src="https://anuragkar09.github.io/files/anurag_resume.pdf" width="500" height="375" 
- type="application/pdf">
+<iframe src="https://anuragkar09.github.io/files/anurag_resume.pdf" style="width: 100%;height: 100%;border: none;"></iframe>
 
 
 Research Interests
