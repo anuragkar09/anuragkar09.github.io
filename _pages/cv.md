@@ -12,7 +12,7 @@ redirect_from:
 
 
 
-<embed src="http://example.com/the.pdf](https://anuragkar09.github.io/files/anurag_resume.pdf" width="500" height="375" 
+<embed src="https://anuragkar09.github.io/files/anurag_resume.pdf" width="500" height="375" 
  type="application/pdf">
 
 
