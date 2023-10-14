@@ -9,7 +9,7 @@ author_profile: true
 Publications
 ==============
 
-1. **A. Kar**, S. Dey, D. Burman, S. Santra and P. K. Guha, ”RGO/Ni2O3 Heterojunction-Based Reusable, Flexible Device for Cr(VI) Ion Detection in Water,” in IEEE Transactions on Electron Devices, vol. 68, no. 2, pp. 780-785, Feb. 2021, doi: 10.1109/TED.2020.3045954 [**\[PAPER\]**](https://ieeexplore.ieee.org/document/9316254)
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fnetwork%2Ffiles%2FJxAtX7untcbCEL5iZ&noBootstrap=1&jsonp=1"></script>
 
 Presentations
 ==============
