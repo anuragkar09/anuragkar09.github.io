@@ -1,27 +1,22 @@
-# main links links
+# main links
 main:
   - title: "CV"
     url: /cv/
   - title: "Publications"
     url: /publications/
-      #- title: "Blog"
-      #url: /year-archive/
-      #- title: "Pictures & Comics"
-      #url: /personal/
-      #- title: "Talks"
-      #url: /talks/    
-
-      # - title: "Teaching"
-      #url: /teaching/    
-    
-      #- title: "Portfolio"
-      #url: /portfolio/
-        
-      #- title: "Blog Posts"
-      #url: /year-archive/
-    
-      #- title: "CV"
-      #url: /cv/
-    
-      #- title: "Guide"
-      #url: /markdown/
+  - title: "Deadlines"
+    url: /deadlines/
+  #- title: "Blog"
+  #  url: /year-archive/
+  #- title: "Pictures & Comics"
+  #  url: /personal/
+  #- title: "Talks"
+  #  url: /talks/
+  #- title: "Teaching"
+  #  url: /teaching/
+  #- title: "Portfolio"
+  #  url: /portfolio/
+  #- title: "Blog Posts"
+  #  url: /year-archive/
+  #- title: "Guide"
+  #  url: /markdown/

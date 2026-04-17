@@ -1,0 +1,40 @@
+- title: ISCA
+  year: 2027
+  id: isca27
+  link: https://www.iscaconf.org/
+  deadline: 2026-11-20T23:59:00-05:00
+  timezone: America/New_York
+  date: June 2027
+  place: TBD
+  sub: ARCH
+  note: Abstract deadline usually earlier
+
+- title: MICRO
+  year: 2026
+  id: micro26
+  link: https://www.microarch.org/
+  deadline: 2026-04-25T23:59:00-04:00
+  timezone: America/New_York
+  date: Fall 2026
+  place: TBD
+  sub: ARCH
+
+- title: ASPLOS
+  year: 2027
+  id: asplos27
+  link: https://www.asplos-conference.org/
+  deadline: 2026-08-07T23:59:00-04:00
+  timezone: America/New_York
+  date: Spring 2027
+  place: TBD
+  sub: SYS
+
+- title: HPCA
+  year: 2027
+  id: hpca27
+  link: https://hpca-conf.org/
+  deadline: 2026-07-25T23:59:00-04:00
+  timezone: America/New_York
+  date: Early 2027
+  place: TBD
+  sub: ARCH
