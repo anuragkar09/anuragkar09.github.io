@@ -4,9 +4,7 @@
   function getPreferred() {
     var stored = localStorage.getItem(STORAGE_KEY);
     if (stored) return stored;
-    return window.matchMedia("(prefers-color-scheme: light)").matches
-      ? "light"
-      : "dark";
+    return "dark";
   }
 
   function apply(theme) {
