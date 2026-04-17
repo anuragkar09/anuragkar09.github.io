@@ -183,6 +183,16 @@ author_profile: true
   color: var(--purple);
 }
 
+.deadline-sub[data-sub="CV"] {
+  background: rgba(126,231,135,0.12);
+  color: var(--accent);
+}
+
+.deadline-sub[data-sub="NLP"] {
+  background: rgba(210,153,34,0.12);
+  color: var(--warning);
+}
+
 .deadline-right {
   text-align: right;
   flex-shrink: 0;
@@ -222,8 +232,9 @@ author_profile: true
 </style>
 
 <p class="deadlines-intro">
-  Conference deadline tracker for architecture, systems, and ML venues.
-  Source: <a href="https://casys-kaist.github.io/" target="_blank" rel="noopener noreferrer">KAIST CASYS</a>.
+  Conference deadline tracker for architecture, systems, ML, CV, and NLP venues.
+  Sources: <a href="https://casys-kaist.github.io/" target="_blank" rel="noopener noreferrer">KAIST CASYS</a>,
+  <a href="https://mlciv.com/ai-deadlines/" target="_blank" rel="noopener noreferrer">AI Deadlines</a>.
   Past deadlines are automatically hidden.
 </p>
 
@@ -235,6 +246,8 @@ author_profile: true
     <option value="ARCH">--arch</option>
     <option value="SYS">--sys</option>
     <option value="ML">--ml</option>
+    <option value="CV">--cv</option>
+    <option value="NLP">--nlp</option>
   </select>
 </div>
 

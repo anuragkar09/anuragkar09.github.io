@@ -77,7 +77,7 @@ redirect_from:
 </div>
 
 <div class="cv-viewer" id="cv-viewer">
-  <iframe id="cv-iframe" src="" data-src="{{ '/files/anurag_resume.pdf' | relative_url }}#view=fit"></iframe>
+  <iframe id="cv-iframe" data-src="{{ '/files/anurag_resume.pdf' | relative_url }}#view=fit"></iframe>
 </div>
 
 <script>
@@ -87,8 +87,9 @@ function toggleCV() {
   var iframe = document.getElementById("cv-iframe");
   var isOpen = viewer.classList.toggle("open");
   btn.textContent = isOpen ? "Hide PDF" : "View PDF";
-  if (isOpen && !iframe.src) {
+  if (isOpen && !iframe.dataset.loaded) {
     iframe.src = iframe.dataset.src;
+    iframe.dataset.loaded = "1";
   }
 }
 </script>

@@ -87,7 +87,7 @@ function wireDeadlineFilters() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  updateDeadlineCards();
   wireDeadlineFilters();
+  updateDeadlineCards();
   setInterval(updateDeadlineCards, 60000);
 });

@@ -1,3 +1,15 @@
+- title: PACT
+  year: 2026
+  id: pact26
+  link: https://pact2026.github.io/submit/
+  deadline: "2026-04-24T23:59:59-12:00"
+  timezone: AoE
+  date: October 19-22, 2026
+  place: Chicago, IL, USA
+  sub: ARCH
+  note: "Abstract deadline: Apr 17"
+  fav: true
+
 - title: NSDI (Spring)
   year: 2027
   id: nsdi27spring
@@ -11,13 +23,25 @@
 - title: NeurIPS
   year: 2026
   id: neurips26
-  link: https://neurips.cc/
+  link: https://neurips.cc/Conferences/2026/CallForPapers
   deadline: "2026-05-06T23:59:59-12:00"
   timezone: AoE
   date: December 6-12, 2026
   place: Sydney, Australia
   sub: ML
   note: "Abstract deadline: May 4"
+  fav: true
+
+- title: IISWC
+  year: 2026
+  id: iiswc26
+  link: https://iiswc.org/iiswc2026/
+  deadline: "2026-05-21T23:59:59-12:00"
+  timezone: AoE
+  date: September 27-29, 2026
+  place: Boulder, CO, USA
+  sub: ARCH
+  note: "Abstract deadline: May 14"
   fav: true
 
 - title: EuroSys (Spring)
@@ -39,8 +63,30 @@
   timezone: AoE
   date: October 24-29, 2026
   place: Budapest, Hungary
-  sub: ML
+  sub: NLP
   note: "ARR submission deadline. Commitment deadline Aug 2."
+
+- title: BMVC
+  year: 2026
+  id: bmvc26
+  link: https://bmvc2026.bmva.org/calls/call-for-papers/
+  deadline: "2026-05-29T23:59:59-12:00"
+  timezone: AoE
+  date: November 23-26, 2026
+  place: Lancaster, UK
+  sub: CV
+  note: "Abstract deadline: May 22"
+
+- title: ICDM
+  year: 2026
+  id: icdm26
+  link: http://icdm2026.neu.edu.cn/
+  deadline: "2026-06-06T23:59:59-12:00"
+  timezone: AoE
+  date: November 12-15, 2026
+  place: Shenyang, China
+  sub: ML
+  note: "Abstract deadline: May 30"
 
 - title: ATC
   year: 2026
@@ -62,6 +108,17 @@
   place: TBD
   sub: ARCH
   fav: true
+
+- title: AAAI
+  year: 2027
+  id: aaai27
+  link: https://aaai.org/conference/aaai/aaai-27/
+  deadline: "2026-08-15T23:59:59-12:00"
+  timezone: AoE
+  date: February 2027
+  place: TBD
+  sub: ML
+  note: "Predicted. Abstract deadline ~Aug 7."
 
 - title: ASPLOS (September)
   year: 2027
@@ -126,6 +183,17 @@
   place: TBD
   sub: SYS
 
+- title: CVPR
+  year: 2027
+  id: cvpr27
+  link: https://cvpr.thecvf.com/
+  deadline: "2026-11-13T23:59:59-12:00"
+  timezone: AoE
+  date: June 2027
+  place: TBD
+  sub: CV
+  note: "Predicted. Abstract deadline ~Nov 7."
+
 - title: ISCA
   year: 2027
   id: isca27
@@ -156,3 +224,59 @@
   date: TBD
   place: TBD
   sub: SYS
+
+- title: IJCAI
+  year: 2027
+  id: ijcai27
+  link: https://2027.ijcai.org/
+  deadline: "2027-01-23T23:59:59-12:00"
+  timezone: AoE
+  date: August 2027
+  place: TBD
+  sub: ML
+  note: "Predicted. Abstract deadline ~Jan 16."
+
+- title: ICML
+  year: 2027
+  id: icml27
+  link: https://icml.cc/Conferences/2027
+  deadline: "2027-01-30T11:59:00-08:00"
+  timezone: PST
+  date: July 2027
+  place: TBD
+  sub: ML
+  note: "Predicted. Abstract deadline ~Jan 25."
+
+- title: ACL
+  year: 2027
+  id: acl27
+  link: https://2027.aclweb.org/
+  deadline: "2027-02-15T23:59:00-12:00"
+  timezone: AoE
+  date: July 2027
+  place: TBD
+  sub: NLP
+  note: "Predicted. Via ACL Rolling Review."
+
+- title: ICCV
+  year: 2027
+  id: iccv27
+  link: https://iccv2027.thecvf.com/
+  deadline: "2027-03-07T06:59:59-12:00"
+  timezone: AoE
+  date: October 2027
+  place: TBD
+  sub: CV
+  note: "Predicted. Abstract deadline ~Mar 3."
+
+- title: NeurIPS
+  year: 2027
+  id: neurips27
+  link: https://nips.cc/Conferences/2027
+  deadline: "2027-05-15T19:59:59+00:00"
+  timezone: UTC
+  date: December 2027
+  place: TBD
+  sub: ML
+  note: "Predicted. Abstract deadline ~May 11."
+  fav: true

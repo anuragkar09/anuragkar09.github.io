@@ -10,7 +10,7 @@ redirect_from:
 
   
 <div class="special-class" markdown="1">
-I'm a PhD student in Computer Science at Georgia Tech. I work on analog compute in memory for DNN acceleration.
+I'm a PhD student in Computer Science at Georgia Tech. I work on making compute-in memory for ML accelerators more reliable. In a past life, I have also spent time working on security and electronic materials. 
 
 ### News
 
