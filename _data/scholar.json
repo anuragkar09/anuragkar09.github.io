@@ -1,0 +1,89 @@
+{
+  "last_updated": "2026-04-17T00:00:00+00:00",
+  "scholar_id": "4jP4srAAAAAJ",
+  "profile_url": "https://scholar.google.com/citations?user=4jP4srAAAAAJ&hl=en",
+  "metrics": {
+    "citations": 35,
+    "h_index": 3,
+    "i10_index": 2,
+    "citations_graph": {
+      "2021": 4,
+      "2022": 1,
+      "2023": 1,
+      "2024": 14,
+      "2025": 2
+    }
+  },
+  "publications": [
+    {
+      "title": "Rv-cure: A risc-v capability architecture for full memory safety",
+      "authors": "Y Kim, A Kar, J Lee, J Lee, H Kim",
+      "venue": "IEEE Transactions on Computers",
+      "year": "2025",
+      "citations": 5,
+      "url": "",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=4jP4srAAAAAJ&citation_for_view=4jP4srAAAAAJ:9yKSN-GCB0IC",
+      "abstract": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "publisher": "IEEE"
+    },
+    {
+      "title": "Mitigating timing-based NoC side-channel attacks with LLC remapping",
+      "authors": "A Kar, X Liu, Y Kim, G Saileshwar, H Kim, T Krishna",
+      "venue": "IEEE Computer Architecture Letters",
+      "year": "2023",
+      "citations": 13,
+      "url": "",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=4jP4srAAAAAJ&citation_for_view=4jP4srAAAAAJ:d1gkVwhDpl0C",
+      "abstract": "",
+      "volume": "22",
+      "number": "1",
+      "pages": "53-56",
+      "publisher": "IEEE"
+    },
+    {
+      "title": "Hardware-Assisted Code-Pointer Tagging for Forward-Edge Control-Flow Integrity",
+      "authors": "Y Kim, A Kar, J Lee, J Lee, H Kim",
+      "venue": "IEEE Computer Architecture Letters",
+      "year": "2023",
+      "citations": 1,
+      "url": "",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=4jP4srAAAAAJ&citation_for_view=4jP4srAAAAAJ:2osOgNQ5qMEC",
+      "abstract": "",
+      "volume": "22",
+      "number": "2",
+      "pages": "117-120",
+      "publisher": "IEEE"
+    },
+    {
+      "title": "AOS-RISC-V: Towards always-on heap memory safety",
+      "authors": "Y Kim, A Kar, S Singh, AA Ratnani, J Lee, H Kim",
+      "venue": "Proc. 6th Workshop Comput. Archit. Res. RISC-V 49th Int. Symp. Comput. Archit.",
+      "year": "2022",
+      "citations": 2,
+      "url": "",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=4jP4srAAAAAJ&citation_for_view=4jP4srAAAAAJ:u-x6o8ySG0sC",
+      "abstract": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "publisher": ""
+    },
+    {
+      "title": "RGO/Ni2O3 Heterojunction-Based Reusable, Flexible Device for Cr(VI) Ion Detection in Water",
+      "authors": "A Kar, S Dey, D Burman, S Santra, PK Guha",
+      "venue": "IEEE Transactions on Electron Devices",
+      "year": "2021",
+      "citations": 14,
+      "url": "",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=4jP4srAAAAAJ&citation_for_view=4jP4srAAAAAJ:u5HHmVD_uO8C",
+      "abstract": "",
+      "volume": "68",
+      "number": "2",
+      "pages": "780-785",
+      "publisher": "IEEE"
+    }
+  ]
+}

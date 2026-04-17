@@ -8,6 +8,18 @@
   place: Providence, RI, USA
   sub: SYS
 
+- title: NeurIPS
+  year: 2026
+  id: neurips26
+  link: https://neurips.cc/
+  deadline: "2026-05-06T23:59:59-12:00"
+  timezone: AoE
+  date: December 6-12, 2026
+  place: Sydney, Australia
+  sub: ML
+  note: "Abstract deadline: May 4"
+  fav: true
+
 - title: EuroSys (Spring)
   year: 2027
   id: eurosys27spring
@@ -49,6 +61,7 @@
   date: TBD
   place: TBD
   sub: ARCH
+  fav: true
 
 - title: ASPLOS (September)
   year: 2027
@@ -59,6 +72,7 @@
   date: TBD
   place: TBD
   sub: ARCH
+  fav: true
 
 - title: FAST
   year: 2027
@@ -121,6 +135,7 @@
   date: TBD
   place: TBD
   sub: ARCH
+  fav: true
 
 - title: DAC
   year: 2027

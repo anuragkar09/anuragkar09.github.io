@@ -162,6 +162,12 @@ author_profile: true
   vertical-align: middle;
 }
 
+.deadline-card[data-fav="true"] .deadline-title a::after {
+  content: " ★";
+  color: var(--warning);
+  font-size: 0.8em;
+}
+
 .deadline-sub[data-sub="ARCH"] {
   background: rgba(248,81,73,0.12);
   color: var(--danger);
@@ -224,6 +230,7 @@ author_profile: true
 <div class="deadlines-toolbar">
   <input id="deadline-search" type="text" placeholder="grep conference...">
   <select id="deadline-filter">
+    <option value="FAV" selected>--favorites</option>
     <option value="ALL">--all</option>
     <option value="ARCH">--arch</option>
     <option value="SYS">--sys</option>
@@ -238,7 +245,8 @@ author_profile: true
     class="deadline-card"
     data-title="{{ c.title | escape }}"
     data-sub="{{ c.sub | escape }}"
-    data-deadline="{{ c.deadline }}">
+    data-deadline="{{ c.deadline }}"
+    data-fav="{{ c.fav }}">
     <div class="deadline-left">
       <h2 class="deadline-title">
         <a href="{{ c.link }}" target="_blank" rel="noopener noreferrer">

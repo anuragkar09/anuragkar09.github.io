@@ -74,7 +74,8 @@ function wireDeadlineFilters() {
       const sub = (card.dataset.sub || "").toUpperCase();
 
       const matchesSearch = !q || title.includes(q) || sub.toLowerCase().includes(q);
-      const matchesArea = area === "ALL" || sub.includes(area);
+      const isFav = card.dataset.fav === "true";
+      const matchesArea = area === "FAV" ? isFav : area === "ALL" || sub.includes(area);
 
       card.style.display = matchesSearch && matchesArea ? "" : "none";
     });
