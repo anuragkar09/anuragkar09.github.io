@@ -1,0 +1,561 @@
+/* ===================================================================
+   Terminal Theme — Dark (navy) + Light (solarized)
+   Applied AFTER compiled main.css to override Minimal Mistakes colors.
+   =================================================================== */
+
+/* Dark theme (default) */
+:root,
+html[data-theme="dark"] {
+  --bg:          #0f1729;
+  --bg-surface:  #131d2b;
+  --bg-nav:      #0a1220;
+  --bg-hover:    #172030;
+  --text:        #c9d1d9;
+  --text-muted:  #6e7681;
+  --text-dim:    #484f58;
+  --link:        #58a6ff;
+  --link-hover:  #79c0ff;
+  --link-visited:#58a6ff;
+  --border:      #1e2d3d;
+  --border-hover:#2a3a4a;
+  --accent:      #7ee787;
+  --warning:     #d29922;
+  --danger:      #f85149;
+  --purple:      #d2a8ff;
+  --code-bg:     #161b22;
+  --nav-underline: #3a5068;
+  --input-bg:    #131d2b;
+  --avatar-border:#2a3a4a;
+  --shadow:      rgba(0,0,0,0.4);
+  --icon-filter: brightness(1.8);
+}
+
+/* Light theme — Solarized */
+html[data-theme="light"] {
+  --bg:          #fdf6e3;
+  --bg-surface:  #eee8d5;
+  --bg-nav:      #eee8d5;
+  --bg-hover:    #e5ddc6;
+  --text:        #073642;
+  --text-muted:  #586e75;
+  --text-dim:    #93a1a1;
+  --link:        #268bd2;
+  --link-hover:  #073642;
+  --link-visited:#6c71c4;
+  --border:      #d3cbb7;
+  --border-hover:#b8b09c;
+  --accent:      #859900;
+  --warning:     #b58900;
+  --danger:      #dc322f;
+  --purple:      #6c71c4;
+  --code-bg:     #eee8d5;
+  --nav-underline:#93a1a1;
+  --input-bg:    #fdf6e3;
+  --avatar-border:#d3cbb7;
+  --shadow:      rgba(0,0,0,0.08);
+  --icon-filter: none;
+}
+
+/* -------------------------------------------------------------------
+   Global
+   ------------------------------------------------------------------- */
+html {
+  background-color: var(--bg) !important;
+}
+
+body {
+  background-color: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+/* -------------------------------------------------------------------
+   Typography — force monospace everywhere
+   ------------------------------------------------------------------- */
+body,
+h1, h2, h3, h4, h5, h6,
+p, li, dt, dd,
+.sidebar p, .sidebar li,
+.sidebar .author__name,
+.author__bio,
+.page__lead,
+.page__meta,
+.page__footer-copyright,
+.breadcrumbs,
+.pagination li a,
+.pagination--pager,
+.nav__title, .nav__sub-title,
+.masthead__inner-wrap,
+.greedy-nav a,
+.toc,
+.toc__menu a,
+figcaption,
+blockquote,
+input, select, textarea, button {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Consolas', 'Monaco', monospace !important;
+}
+
+/* -------------------------------------------------------------------
+   Links
+   ------------------------------------------------------------------- */
+a {
+  color: var(--link) !important;
+}
+
+a:hover,
+a:active {
+  color: var(--link-hover) !important;
+}
+
+a:visited {
+  color: var(--link-visited) !important;
+}
+
+.page__content a:hover {
+  color: var(--link-hover) !important;
+}
+
+/* -------------------------------------------------------------------
+   Headings
+   ------------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text) !important;
+}
+
+.page__content h2 {
+  border-bottom-color: var(--border) !important;
+}
+
+.page__title {
+  color: var(--text) !important;
+}
+
+/* -------------------------------------------------------------------
+   Masthead / nav
+   ------------------------------------------------------------------- */
+.masthead {
+  background-color: var(--bg-nav) !important;
+  border-bottom-color: var(--border) !important;
+}
+
+.greedy-nav {
+  background: var(--bg-nav) !important;
+}
+
+.greedy-nav a {
+  color: var(--text-muted) !important;
+}
+
+.greedy-nav a:hover {
+  color: var(--text) !important;
+}
+
+.greedy-nav .visible-links a:before {
+  background: var(--accent) !important;
+}
+
+.masthead__menu-item--lg a {
+  color: var(--accent) !important;
+  font-weight: 700 !important;
+}
+
+.greedy-nav button {
+  background-color: var(--bg-surface) !important;
+  color: var(--text) !important;
+}
+
+.greedy-nav .hidden-links {
+  background: var(--bg-surface) !important;
+  border-color: var(--border) !important;
+  box-shadow: 0 4px 16px var(--shadow) !important;
+}
+
+.greedy-nav .hidden-links a:hover {
+  background: var(--bg-hover) !important;
+  color: var(--text) !important;
+}
+
+.greedy-nav .hidden-links:before {
+  border-color: var(--border) transparent !important;
+}
+
+.greedy-nav .hidden-links:after {
+  border-color: var(--bg-surface) transparent !important;
+}
+
+.greedy-nav .hidden-links li {
+  border-bottom-color: var(--border) !important;
+}
+
+/* -------------------------------------------------------------------
+   Theme toggle button in nav
+   ------------------------------------------------------------------- */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0.3rem 0.5rem;
+  margin-left: 0.75rem;
+  font-size: 1rem;
+  line-height: 1;
+  vertical-align: middle;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+
+.theme-toggle:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--bg-hover);
+}
+
+/* -------------------------------------------------------------------
+   Sidebar / author profile
+   ------------------------------------------------------------------- */
+.sidebar {
+  color: var(--text) !important;
+}
+
+.sidebar .author__name {
+  color: var(--text) !important;
+}
+
+.sidebar .author__bio {
+  color: var(--text-muted) !important;
+}
+
+.author__avatar img {
+  border-color: var(--avatar-border) !important;
+}
+
+.author__urls-wrapper button {
+  background-color: var(--bg-surface) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border) !important;
+}
+
+.author__urls {
+  background: var(--bg-surface) !important;
+  border-color: var(--border) !important;
+  box-shadow: 0 4px 12px var(--shadow) !important;
+}
+
+.author__urls:before {
+  border-color: var(--border) transparent !important;
+}
+
+.author__urls:after {
+  border-color: var(--bg-surface) transparent !important;
+}
+
+.author__urls a {
+  color: var(--text) !important;
+}
+
+.author__urls a:hover {
+  color: var(--link) !important;
+}
+
+.sidebar .fas,
+.sidebar .fab,
+.sidebar .far,
+.sidebar .fal,
+.sidebar .fa,
+.sidebar .ai {
+  color: var(--text-muted) !important;
+}
+
+/* -------------------------------------------------------------------
+   Page content
+   ------------------------------------------------------------------- */
+#main {
+  background: transparent !important;
+}
+
+.page__content {
+  color: var(--text) !important;
+}
+
+.page__meta {
+  color: var(--text-dim) !important;
+}
+
+/* -------------------------------------------------------------------
+   Code blocks
+   ------------------------------------------------------------------- */
+p > code,
+a > code,
+li > code,
+figcaption > code,
+td > code {
+  background: var(--code-bg) !important;
+  border-color: var(--border) !important;
+  color: var(--accent) !important;
+  box-shadow: none !important;
+}
+
+pre {
+  background: var(--code-bg) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 6px !important;
+}
+
+.highlight {
+  background: var(--code-bg) !important;
+}
+
+/* -------------------------------------------------------------------
+   Blockquote
+   ------------------------------------------------------------------- */
+blockquote {
+  border-left-color: var(--accent) !important;
+  color: var(--text-muted) !important;
+}
+
+/* -------------------------------------------------------------------
+   Horizontal rule + borders
+   ------------------------------------------------------------------- */
+hr {
+  border-top-color: var(--border) !important;
+}
+
+.page__share,
+.page__related,
+.page__content + .pagination,
+.page__meta + .pagination,
+.page__share + .pagination,
+.page__comments + .pagination,
+.nav__sub-title,
+.page__comments-title {
+  border-top-color: var(--border) !important;
+  border-bottom-color: var(--border) !important;
+}
+
+/* -------------------------------------------------------------------
+   Pagination
+   ------------------------------------------------------------------- */
+.pagination li a,
+.pagination--pager {
+  color: var(--text-muted) !important;
+  border-color: var(--border) !important;
+  background: var(--bg-surface) !important;
+}
+
+.pagination li a:hover,
+.pagination--pager:hover {
+  color: var(--link) !important;
+}
+
+.pagination li a.current {
+  background: var(--accent) !important;
+  color: var(--bg) !important;
+}
+
+/* -------------------------------------------------------------------
+   TOC
+   ------------------------------------------------------------------- */
+.toc {
+  background-color: var(--bg-surface) !important;
+  border-color: var(--border) !important;
+  color: var(--text-muted) !important;
+  box-shadow: 0 1px 4px var(--shadow) !important;
+}
+
+.toc .nav__title {
+  background: var(--bg-hover) !important;
+  color: var(--text) !important;
+}
+
+.toc__menu a {
+  color: var(--text-muted) !important;
+  border-bottom-color: var(--border) !important;
+}
+
+.toc__menu a:hover {
+  color: var(--text) !important;
+  background: var(--bg-hover) !important;
+}
+
+/* -------------------------------------------------------------------
+   Tables
+   ------------------------------------------------------------------- */
+table {
+  color: var(--text) !important;
+}
+
+th, td {
+  border-color: var(--border) !important;
+}
+
+thead th {
+  background-color: var(--bg-surface) !important;
+}
+
+tbody tr:nth-child(even) {
+  background-color: var(--bg-surface) !important;
+}
+
+/* -------------------------------------------------------------------
+   Forms / inputs
+   ------------------------------------------------------------------- */
+input, select, textarea {
+  background-color: var(--input-bg) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+input::placeholder {
+  color: var(--text-dim) !important;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--link) !important;
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgba(88,166,255,0.15) !important;
+}
+
+/* -------------------------------------------------------------------
+   Buttons
+   ------------------------------------------------------------------- */
+.btn {
+  background-color: var(--bg-surface) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+.btn:hover {
+  background-color: var(--bg-hover) !important;
+  color: var(--link) !important;
+}
+
+/* -------------------------------------------------------------------
+   Footer
+   ------------------------------------------------------------------- */
+.page__footer {
+  background-color: var(--bg-nav) !important;
+  border-top-color: var(--border) !important;
+  color: var(--text-dim) !important;
+}
+
+.page__footer a {
+  color: var(--text-muted) !important;
+}
+
+.page__footer a:hover {
+  color: var(--link) !important;
+}
+
+.page__footer .fas,
+.page__footer .fab,
+.page__footer .far,
+.page__footer .fal {
+  color: var(--text-dim) !important;
+}
+
+/* -------------------------------------------------------------------
+   Notices
+   ------------------------------------------------------------------- */
+.notice,
+.notice--primary,
+.notice--info,
+.notice--warning,
+.notice--success,
+.notice--danger {
+  background-color: var(--bg-surface) !important;
+  color: var(--text) !important;
+}
+
+/* -------------------------------------------------------------------
+   Archive / taxonomy
+   ------------------------------------------------------------------- */
+.page__taxonomy-item {
+  border-color: var(--border) !important;
+  color: var(--text-muted) !important;
+}
+
+.page__taxonomy-item:hover {
+  color: var(--link) !important;
+}
+
+.archive__item-title a {
+  color: var(--link) !important;
+}
+
+/* -------------------------------------------------------------------
+   Comments form
+   ------------------------------------------------------------------- */
+.page__comments-form {
+  background: var(--bg-surface) !important;
+}
+
+.comment:not(:last-child) {
+  border-bottom-color: var(--border) !important;
+}
+
+.comment__avatar {
+  border-color: var(--border) !important;
+}
+
+/* -------------------------------------------------------------------
+   Navicon (hamburger)
+   ------------------------------------------------------------------- */
+.navicon,
+.navicon::before,
+.navicon::after {
+  background: var(--text-muted) !important;
+}
+
+/* -------------------------------------------------------------------
+   figcaption
+   ------------------------------------------------------------------- */
+figcaption {
+  color: var(--text-muted) !important;
+}
+
+figcaption a {
+  border-bottom-color: var(--border) !important;
+}
+
+figcaption a:hover {
+  color: var(--text) !important;
+  border-bottom-color: var(--text) !important;
+}
+
+/* -------------------------------------------------------------------
+   Selection
+   ------------------------------------------------------------------- */
+::selection {
+  background: var(--link);
+  color: var(--bg);
+}
+
+/* -------------------------------------------------------------------
+   Social icons color in dark mode
+   ------------------------------------------------------------------- */
+html[data-theme="dark"] .social-icons .fa-google-scholar {
+  filter: var(--icon-filter);
+}
+
+/* -------------------------------------------------------------------
+   Smooth transition on theme switch
+   ------------------------------------------------------------------- */
+body,
+.masthead,
+.greedy-nav,
+.greedy-nav a,
+.sidebar,
+.page__footer,
+.toc,
+input, select, textarea,
+.btn,
+.author__urls,
+.greedy-nav .hidden-links,
+.pagination li a,
+.pagination--pager,
+.deadline-card {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease !important;
+}

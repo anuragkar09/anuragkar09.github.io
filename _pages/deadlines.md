@@ -4,24 +4,22 @@ title: "Deadlines"
 author_profile: true
 ---
 
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-
 <style>
 .deadlines-wrap {
   max-width: 860px;
   font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
-  background: #0f1729;
+  background: var(--bg-surface);
   border-radius: 12px;
   padding: 1.75rem 1.5rem 1.5rem;
   margin: -1rem 0 0 0;
-  border: 1px solid #1e2d3d;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 24px var(--shadow);
 }
 
 .deadlines-wrap *,
 .deadlines-wrap *::before,
 .deadlines-wrap *::after {
-  font-family: inherit;
+  font-family: inherit !important;
 }
 
 .deadlines-titlebar {
@@ -30,7 +28,7 @@ author_profile: true
   gap: 0.5rem;
   margin-bottom: 1rem;
   padding-bottom: 0.75rem;
-  border-bottom: 1px solid #1e2d3d;
+  border-bottom: 1px solid var(--border);
 }
 
 .deadlines-dots {
@@ -45,12 +43,12 @@ author_profile: true
   display: inline-block;
 }
 
-.deadlines-dots span:nth-child(1) { background: #f85149; }
-.deadlines-dots span:nth-child(2) { background: #d29922; }
-.deadlines-dots span:nth-child(3) { background: #7ee787; }
+.deadlines-dots span:nth-child(1) { background: var(--danger); }
+.deadlines-dots span:nth-child(2) { background: var(--warning); }
+.deadlines-dots span:nth-child(3) { background: var(--accent); }
 
 .deadlines-titlebar-text {
-  color: #484f58;
+  color: var(--text-dim);
   font-size: 0.78rem;
   margin-left: 0.5rem;
   letter-spacing: 0.02em;
@@ -58,25 +56,25 @@ author_profile: true
 
 .deadlines-intro {
   margin-bottom: 1.25rem;
-  color: #6e7681;
+  color: var(--text-muted) !important;
   font-size: 0.82rem;
   line-height: 1.6;
 }
 
 .deadlines-intro::before {
   content: "// ";
-  color: #484f58;
+  color: var(--text-dim);
 }
 
 .deadlines-intro a {
-  color: #58a6ff;
-  text-decoration: none;
-  border-bottom: 1px dashed #58a6ff40;
+  color: var(--link) !important;
+  text-decoration: none !important;
+  border-bottom: 1px dashed var(--border) !important;
 }
 
 .deadlines-intro a:hover {
-  color: #79c0ff;
-  border-bottom-color: #79c0ff;
+  color: var(--link-hover) !important;
+  border-bottom-color: var(--link-hover) !important;
 }
 
 .deadlines-toolbar {
@@ -90,30 +88,30 @@ author_profile: true
 .deadlines-toolbar input,
 .deadlines-toolbar select {
   padding: 0.5rem 0.7rem;
-  border: 1px solid #2a3a4a;
+  border: 1px solid var(--border) !important;
   border-radius: 6px;
   min-width: 180px;
-  background: #131d2b;
-  color: #c9d1d9;
-  font-family: inherit;
+  background: var(--bg) !important;
+  color: var(--text) !important;
+  font-family: inherit !important;
   font-size: 0.85rem;
   outline: none;
   transition: border-color 0.2s;
 }
 
 .deadlines-toolbar input::placeholder {
-  color: #484f58;
+  color: var(--text-dim) !important;
 }
 
 .deadlines-toolbar input:focus,
 .deadlines-toolbar select:focus {
-  border-color: #58a6ff;
-  box-shadow: 0 0 0 2px #58a6ff20;
+  border-color: var(--link) !important;
+  box-shadow: 0 0 0 2px rgba(88,166,255,0.15) !important;
 }
 
 .deadlines-toolbar select option {
-  background: #131d2b;
-  color: #c9d1d9;
+  background: var(--bg);
+  color: var(--text);
 }
 
 .deadlines-list {
@@ -123,11 +121,11 @@ author_profile: true
 }
 
 .deadline-card {
-  border: 1px solid #1e2d3d;
-  border-left: 4px solid #7ee787;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
   border-radius: 6px;
   padding: 0.75rem 1rem;
-  background: #131d2b;
+  background: var(--bg);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -136,16 +134,16 @@ author_profile: true
 }
 
 .deadline-card:hover {
-  background: #172030;
-  border-color: #2a3a4a;
+  background: var(--bg-hover);
+  border-color: var(--border-hover);
 }
 
 .deadline-card.soon {
-  border-left-color: #d29922;
+  border-left-color: var(--warning);
 }
 
 .deadline-card.urgent {
-  border-left-color: #f85149;
+  border-left-color: var(--danger);
 }
 
 .deadline-left {
@@ -161,43 +159,43 @@ author_profile: true
 }
 
 .deadline-title a {
-  color: #58a6ff;
-  text-decoration: none;
+  color: var(--link) !important;
+  text-decoration: none !important;
 }
 
 .deadline-title a:hover {
-  color: #79c0ff;
-  text-decoration: underline;
+  color: var(--link-hover) !important;
+  text-decoration: underline !important;
 }
 
 .deadline-title a::before {
   content: "$ ";
-  color: #7ee787;
+  color: var(--accent);
   font-weight: 700;
 }
 
 .deadline-meta {
   margin: 0.1rem 0;
   font-size: 0.78rem;
-  color: #6e7681;
+  color: var(--text-muted) !important;
 }
 
 .deadline-note {
   margin: 0.1rem 0;
   font-size: 0.76rem;
-  color: #d2a8ff;
+  color: var(--purple) !important;
   font-style: italic;
 }
 
 .deadline-note::before {
   content: "/* ";
-  color: #484f58;
+  color: var(--text-dim);
   font-style: normal;
 }
 
 .deadline-note::after {
   content: " */";
-  color: #484f58;
+  color: var(--text-dim);
   font-style: normal;
 }
 
@@ -214,18 +212,18 @@ author_profile: true
 }
 
 .deadline-sub[data-sub="ARCH"] {
-  background: #f8514920;
-  color: #ffa198;
+  background: rgba(248,81,73,0.12);
+  color: var(--danger);
 }
 
 .deadline-sub[data-sub="SYS"] {
-  background: #58a6ff20;
-  color: #79c0ff;
+  background: rgba(88,166,255,0.12);
+  color: var(--link);
 }
 
 .deadline-sub[data-sub="ML"] {
-  background: #d2a8ff20;
-  color: #d2a8ff;
+  background: rgba(210,168,255,0.12);
+  color: var(--purple);
 }
 
 .deadline-right {
@@ -236,7 +234,7 @@ author_profile: true
 
 .deadline-date {
   font-size: 0.76rem;
-  color: #6e7681;
+  color: var(--text-muted) !important;
   display: block;
   margin-bottom: 0.2rem;
 }
@@ -244,22 +242,22 @@ author_profile: true
 .deadline-countdown {
   font-size: 0.9rem;
   font-weight: 700;
-  color: #7ee787;
+  color: var(--accent);
 }
 
 .deadline-card.soon .deadline-countdown {
-  color: #d29922;
+  color: var(--warning);
 }
 
 .deadline-card.urgent .deadline-countdown {
-  color: #f85149;
+  color: var(--danger);
 }
 
 .deadline-cursor {
   display: inline-block;
   width: 2px;
   height: 0.9em;
-  background: #7ee787;
+  background: var(--accent);
   margin-left: 3px;
   vertical-align: text-bottom;
   animation: blink 1s step-end infinite;
