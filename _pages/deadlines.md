@@ -6,7 +6,7 @@ author_profile: true
 
 <style>
 .deadlines-wrap {
-  max-width: 1100px;
+  max-width: 800px;
 }
 
 .deadlines-intro {
@@ -30,24 +30,23 @@ author_profile: true
   min-width: 180px;
 }
 
-.deadlines-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 1rem;
+.deadlines-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
 }
 
 .deadline-card {
   border: 1px solid #e5e5e5;
   border-left: 5px solid #2d7ff9;
-  border-radius: 12px;
-  padding: 1rem 1rem 0.9rem;
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
   background: #fff;
   box-shadow: 0 1px 2px rgba(0,0,0,0.04);
-}
-
-.deadline-card.closed {
-  opacity: 0.72;
-  border-left-color: #999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 }
 
 .deadline-card.soon {
@@ -58,10 +57,15 @@ author_profile: true
   border-left-color: #dc2626;
 }
 
+.deadline-left {
+  flex: 1;
+  min-width: 0;
+}
+
 .deadline-title {
-  margin: 0 0 0.35rem 0;
-  font-size: 1.15rem;
-  line-height: 1.25;
+  margin: 0 0 0.2rem 0;
+  font-size: 1.1rem;
+  line-height: 1.3;
 }
 
 .deadline-title a {
@@ -69,47 +73,69 @@ author_profile: true
 }
 
 .deadline-meta,
-.deadline-note,
-.deadline-timezone {
-  margin: 0.25rem 0;
-  font-size: 0.95rem;
+.deadline-note {
+  margin: 0.15rem 0;
+  font-size: 0.9rem;
   color: #555;
 }
 
 .deadline-sub {
   display: inline-block;
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  padding: 0.2rem 0.5rem;
+  padding: 0.15rem 0.45rem;
   border-radius: 999px;
   background: #eef4ff;
   color: #2457c5;
-  margin-bottom: 0.75rem;
+  margin-left: 0.4rem;
+  vertical-align: middle;
 }
 
-.deadline-countdown {
-  margin-top: 0.9rem;
-  font-size: 1.05rem;
-  font-weight: 700;
+.deadline-right {
+  text-align: right;
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 
 .deadline-date {
-  font-weight: 600;
-  color: #222;
+  font-size: 0.88rem;
+  color: #333;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.deadline-countdown {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #2d7ff9;
+}
+
+.deadline-card.soon .deadline-countdown {
+  color: #d97706;
+}
+
+.deadline-card.urgent .deadline-countdown {
+  color: #dc2626;
 }
 
 @media (max-width: 640px) {
-  .deadlines-grid {
-    grid-template-columns: 1fr;
+  .deadline-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .deadline-right {
+    text-align: left;
   }
 }
 </style>
 
 <div class="deadlines-wrap">
   <p class="deadlines-intro">
-    A personal conference deadline tracker in the style of ai-deadlines, focused on areas I care about.
+    Conference deadline tracker for architecture, systems, and ML venues.
+    Data sourced from <a href="https://casys-kaist.github.io/" target="_blank" rel="noopener noreferrer">KAIST CASYS</a>.
+    Past deadlines are automatically hidden.
   </p>
 
   <div class="deadlines-toolbar">
@@ -119,11 +145,10 @@ author_profile: true
       <option value="ARCH">ARCH</option>
       <option value="SYS">SYS</option>
       <option value="ML">ML</option>
-      <option value="SEC">SEC</option>
     </select>
   </div>
 
-  <div class="deadlines-grid">
+  <div class="deadlines-list">
     {% assign deadlines = site.data.deadlines | sort: "deadline" %}
     {% for c in deadlines %}
     <article
@@ -131,21 +156,22 @@ author_profile: true
       data-title="{{ c.title | escape }}"
       data-sub="{{ c.sub | escape }}"
       data-deadline="{{ c.deadline }}">
-      <div class="deadline-sub">{{ c.sub }}</div>
-      <h2 class="deadline-title">
-        <a href="{{ c.link }}" target="_blank" rel="noopener noreferrer">
-          {{ c.title }} {{ c.year }}
-        </a>
-      </h2>
-      <p class="deadline-meta">{{ c.place }} &middot; {{ c.date }}</p>
-      <p class="deadline-meta">
-        Deadline: <span class="deadline-date">{{ c.deadline }}</span>
-      </p>
-      <p class="deadline-timezone">Timezone: {{ c.timezone }}</p>
-      {% if c.note %}
-      <p class="deadline-note">{{ c.note }}</p>
-      {% endif %}
-      <p class="deadline-countdown">Loading countdown...</p>
+      <div class="deadline-left">
+        <h2 class="deadline-title">
+          <a href="{{ c.link }}" target="_blank" rel="noopener noreferrer">
+            {{ c.title }} {{ c.year }}
+          </a>
+          <span class="deadline-sub">{{ c.sub }}</span>
+        </h2>
+        <p class="deadline-meta">{{ c.place }} &middot; {{ c.date }}</p>
+        {% if c.note %}
+        <p class="deadline-note">{{ c.note }}</p>
+        {% endif %}
+      </div>
+      <div class="deadline-right">
+        <span class="deadline-date">{{ c.deadline }}</span>
+        <span class="deadline-countdown">Loading...</span>
+      </div>
     </article>
     {% endfor %}
   </div>

@@ -13,25 +13,44 @@ function formatCountdown(diffMs) {
 
 function updateDeadlineCards() {
   const now = new Date();
+  const list = document.querySelector(".deadlines-list");
+  const cards = Array.from(document.querySelectorAll(".deadline-card"));
 
-  document.querySelectorAll(".deadline-card").forEach((card) => {
-    const deadlineStr = card.dataset.deadline;
-    const countdownEl = card.querySelector(".deadline-countdown");
-    const deadline = new Date(deadlineStr);
+  cards.forEach((card) => {
+    const deadline = new Date(card.dataset.deadline);
     const diff = deadline - now;
+    const countdownEl = card.querySelector(".deadline-countdown");
 
-    card.classList.remove("closed", "soon", "urgent");
+    card.classList.remove("soon", "urgent");
 
     if (diff <= 0) {
-      card.classList.add("closed");
-    } else if (diff <= 3 * 24 * 60 * 60 * 1000) {
+      card.style.display = "none";
+      return;
+    }
+
+    if (diff <= 3 * 24 * 60 * 60 * 1000) {
       card.classList.add("urgent");
     } else if (diff <= 14 * 24 * 60 * 60 * 1000) {
       card.classList.add("soon");
     }
 
     countdownEl.textContent = formatCountdown(diff);
+
+    const dateEl = card.querySelector(".deadline-date");
+    if (dateEl && !dateEl.dataset.formatted) {
+      dateEl.textContent = deadline.toLocaleDateString(undefined, {
+        weekday: "short", month: "short", day: "numeric", year: "numeric",
+        hour: "numeric", minute: "2-digit", timeZoneName: "short"
+      });
+      dateEl.dataset.formatted = "1";
+    }
   });
+
+  const visible = cards.filter((c) => c.style.display !== "none");
+  visible.sort((a, b) => {
+    return new Date(a.dataset.deadline) - new Date(b.dataset.deadline);
+  });
+  visible.forEach((card) => list.appendChild(card));
 }
 
 function wireDeadlineFilters() {
@@ -42,13 +61,20 @@ function wireDeadlineFilters() {
   function applyFilters() {
     const q = (search?.value || "").trim().toLowerCase();
     const area = filter?.value || "ALL";
+    const now = new Date();
 
     cards.forEach((card) => {
+      const deadline = new Date(card.dataset.deadline);
+      if (deadline - now <= 0) {
+        card.style.display = "none";
+        return;
+      }
+
       const title = (card.dataset.title || "").toLowerCase();
       const sub = (card.dataset.sub || "").toUpperCase();
 
-      const matchesSearch = !q || title.includes(q) || sub.includes(q.toUpperCase());
-      const matchesArea = area === "ALL" || sub === area;
+      const matchesSearch = !q || title.includes(q) || sub.toLowerCase().includes(q);
+      const matchesArea = area === "ALL" || sub.includes(area);
 
       card.style.display = matchesSearch && matchesArea ? "" : "none";
     });
