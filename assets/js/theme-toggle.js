@@ -39,5 +39,14 @@
         apply(current === "dark" ? "light" : "dark");
       });
     }
+
+    var path = window.location.pathname.replace(/\/+$/, "") || "/";
+    var links = document.querySelectorAll(".greedy-nav .visible-links a");
+    links.forEach(function (a) {
+      var href = a.getAttribute("href").replace(/\/+$/, "") || "/";
+      if (href === path) {
+        a.classList.add("active-tab");
+      }
+    });
   });
 })();

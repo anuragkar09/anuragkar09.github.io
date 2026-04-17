@@ -14,11 +14,6 @@ I'm a PhD student in Computer Science at Georgia Tech. I work on analog compute 
 
 ### News
 
-<style>
-  table td {
-    border: none !important;
-  }
-</style>
 <table>
   <tbody>
     <tr>

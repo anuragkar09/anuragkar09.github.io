@@ -5,55 +5,6 @@ author_profile: true
 ---
 
 <style>
-.deadlines-wrap {
-  max-width: 860px;
-  font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
-  background: var(--bg-surface);
-  border-radius: 12px;
-  padding: 1.75rem 1.5rem 1.5rem;
-  margin: -1rem 0 0 0;
-  border: 1px solid var(--border);
-  box-shadow: 0 4px 24px var(--shadow);
-}
-
-.deadlines-wrap *,
-.deadlines-wrap *::before,
-.deadlines-wrap *::after {
-  font-family: inherit !important;
-}
-
-.deadlines-titlebar {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
-  padding-bottom: 0.75rem;
-  border-bottom: 1px solid var(--border);
-}
-
-.deadlines-dots {
-  display: flex;
-  gap: 6px;
-}
-
-.deadlines-dots span {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.deadlines-dots span:nth-child(1) { background: var(--danger); }
-.deadlines-dots span:nth-child(2) { background: var(--warning); }
-.deadlines-dots span:nth-child(3) { background: var(--accent); }
-
-.deadlines-titlebar-text {
-  color: var(--text-dim);
-  font-size: 0.78rem;
-  margin-left: 0.5rem;
-  letter-spacing: 0.02em;
-}
-
 .deadlines-intro {
   margin-bottom: 1.25rem;
   color: var(--text-muted) !important;
@@ -93,7 +44,6 @@ author_profile: true
   min-width: 180px;
   background: var(--bg) !important;
   color: var(--text) !important;
-  font-family: inherit !important;
   font-size: 0.85rem;
   outline: none;
   transition: border-color 0.2s;
@@ -161,6 +111,7 @@ author_profile: true
 .deadline-title a {
   color: var(--link) !important;
   text-decoration: none !important;
+  border-bottom: none !important;
 }
 
 .deadline-title a:hover {
@@ -253,25 +204,7 @@ author_profile: true
   color: var(--danger);
 }
 
-.deadline-cursor {
-  display: inline-block;
-  width: 2px;
-  height: 0.9em;
-  background: var(--accent);
-  margin-left: 3px;
-  vertical-align: text-bottom;
-  animation: blink 1s step-end infinite;
-}
-
-@keyframes blink {
-  50% { opacity: 0; }
-}
-
 @media (max-width: 640px) {
-  .deadlines-wrap {
-    padding: 1rem;
-    border-radius: 8px;
-  }
   .deadline-card {
     flex-direction: column;
     align-items: flex-start;
@@ -282,55 +215,48 @@ author_profile: true
 }
 </style>
 
-<div class="deadlines-wrap">
-  <div class="deadlines-titlebar">
-    <div class="deadlines-dots"><span></span><span></span><span></span></div>
-    <span class="deadlines-titlebar-text">deadlines.sh — ~/research</span>
-  </div>
+<p class="deadlines-intro">
+  Conference deadline tracker for architecture, systems, and ML venues.
+  Source: <a href="https://casys-kaist.github.io/" target="_blank" rel="noopener noreferrer">KAIST CASYS</a>.
+  Past deadlines are automatically hidden.
+</p>
 
-  <p class="deadlines-intro">
-    Conference deadline tracker for architecture, systems, and ML venues.
-    Source: <a href="https://casys-kaist.github.io/" target="_blank" rel="noopener noreferrer">KAIST CASYS</a>.
-    Past deadlines are automatically hidden.<span class="deadline-cursor"></span>
-  </p>
+<div class="deadlines-toolbar">
+  <input id="deadline-search" type="text" placeholder="grep conference...">
+  <select id="deadline-filter">
+    <option value="ALL">--all</option>
+    <option value="ARCH">--arch</option>
+    <option value="SYS">--sys</option>
+    <option value="ML">--ml</option>
+  </select>
+</div>
 
-  <div class="deadlines-toolbar">
-    <input id="deadline-search" type="text" placeholder="grep conference...">
-    <select id="deadline-filter">
-      <option value="ALL">--all</option>
-      <option value="ARCH">--arch</option>
-      <option value="SYS">--sys</option>
-      <option value="ML">--ml</option>
-    </select>
-  </div>
-
-  <div class="deadlines-list">
-    {% assign deadlines = site.data.deadlines | sort: "deadline" %}
-    {% for c in deadlines %}
-    <article
-      class="deadline-card"
-      data-title="{{ c.title | escape }}"
-      data-sub="{{ c.sub | escape }}"
-      data-deadline="{{ c.deadline }}">
-      <div class="deadline-left">
-        <h2 class="deadline-title">
-          <a href="{{ c.link }}" target="_blank" rel="noopener noreferrer">
-            {{ c.title }} {{ c.year }}
-          </a>
-          <span class="deadline-sub" data-sub="{{ c.sub | escape }}">{{ c.sub }}</span>
-        </h2>
-        <p class="deadline-meta">{{ c.place }} &middot; {{ c.date }}</p>
-        {% if c.note %}
-        <p class="deadline-note">{{ c.note }}</p>
-        {% endif %}
-      </div>
-      <div class="deadline-right">
-        <span class="deadline-date">{{ c.deadline }}</span>
-        <span class="deadline-countdown">loading...</span>
-      </div>
-    </article>
-    {% endfor %}
-  </div>
+<div class="deadlines-list">
+  {% assign deadlines = site.data.deadlines | sort: "deadline" %}
+  {% for c in deadlines %}
+  <article
+    class="deadline-card"
+    data-title="{{ c.title | escape }}"
+    data-sub="{{ c.sub | escape }}"
+    data-deadline="{{ c.deadline }}">
+    <div class="deadline-left">
+      <h2 class="deadline-title">
+        <a href="{{ c.link }}" target="_blank" rel="noopener noreferrer">
+          {{ c.title }} {{ c.year }}
+        </a>
+        <span class="deadline-sub" data-sub="{{ c.sub | escape }}">{{ c.sub }}</span>
+      </h2>
+      <p class="deadline-meta">{{ c.place }} &middot; {{ c.date }}</p>
+      {% if c.note %}
+      <p class="deadline-note">{{ c.note }}</p>
+      {% endif %}
+    </div>
+    <div class="deadline-right">
+      <span class="deadline-date">{{ c.deadline }}</span>
+      <span class="deadline-countdown">loading...</span>
+    </div>
+  </article>
+  {% endfor %}
 </div>
 
 <script src="{{ '/assets/js/deadlines.js' | relative_url }}" defer></script>

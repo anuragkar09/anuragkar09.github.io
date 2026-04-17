@@ -125,48 +125,107 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom-color: var(--border) !important;
 }
 
-.page__title {
-  color: var(--text) !important;
-}
-
 /* -------------------------------------------------------------------
-   Masthead / nav
+   Masthead — terminal tab bar
    ------------------------------------------------------------------- */
 .masthead {
   background-color: var(--bg-nav) !important;
-  border-bottom-color: var(--border) !important;
+  border-bottom: none !important;
 }
 
 .greedy-nav {
   background: var(--bg-nav) !important;
+  display: flex;
+  align-items: center;
+}
+
+/* Traffic-light dots in the tab bar */
+.term-dots {
+  display: flex;
+  gap: 6px;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
+}
+
+.term-dots span {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  display: block;
+}
+
+.term-dots span:nth-child(1) { background: var(--danger); }
+.term-dots span:nth-child(2) { background: var(--warning); }
+.term-dots span:nth-child(3) { background: var(--accent); }
+
+/* Nav links styled as tabs */
+.greedy-nav .visible-links {
+  border-bottom: 1px solid var(--border);
 }
 
 .greedy-nav a {
-  color: var(--text-muted) !important;
-}
-
-.greedy-nav a:hover {
-  color: var(--text) !important;
+  color: var(--text-dim) !important;
+  border: none !important;
 }
 
 .greedy-nav .visible-links a:before {
-  background: var(--accent) !important;
+  display: none !important;
 }
 
+.greedy-nav .visible-links li {
+  position: relative;
+}
+
+.greedy-nav .visible-links li a {
+  padding: 0.55rem 1rem !important;
+  margin: 0 !important;
+  border: 1px solid transparent !important;
+  border-bottom: none !important;
+  border-radius: 8px 8px 0 0 !important;
+  font-size: 0.82rem !important;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  position: relative;
+  top: 1px;
+}
+
+.greedy-nav .visible-links li a:hover {
+  color: var(--text) !important;
+  background: var(--bg-hover) !important;
+  border-color: var(--border) var(--border) transparent !important;
+}
+
+/* Active tab — highlight the current page */
+.greedy-nav .visible-links li a[aria-current="page"],
+.greedy-nav .visible-links li a.active-tab {
+  color: var(--text) !important;
+  background: var(--bg-surface) !important;
+  border-color: var(--border) var(--border) var(--bg-surface) !important;
+}
+
+/* Site title tab */
 .masthead__menu-item--lg a {
   color: var(--accent) !important;
   font-weight: 700 !important;
+  font-size: 0.85rem !important;
 }
 
-.greedy-nav button {
-  background-color: var(--bg-surface) !important;
+/* Hamburger button */
+.greedy-nav > button:first-child {
+  background-color: transparent !important;
   color: var(--text) !important;
+  border: none !important;
 }
 
+/* Hidden-links dropdown */
 .greedy-nav .hidden-links {
   background: var(--bg-surface) !important;
   border-color: var(--border) !important;
   box-shadow: 0 4px 16px var(--shadow) !important;
+  border-radius: 0 0 8px 8px !important;
+}
+
+.greedy-nav .hidden-links a {
+  font-size: 0.82rem !important;
 }
 
 .greedy-nav .hidden-links a:hover {
@@ -220,15 +279,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar .author__name {
-  color: var(--text) !important;
+  color: var(--accent) !important;
+  font-weight: 700 !important;
+}
+
+.sidebar .author__name::before {
+  content: "$ whoami\A";
+  white-space: pre;
+  color: var(--text-dim);
+  font-size: 0.7rem;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 0.15rem;
 }
 
 .sidebar .author__bio {
   color: var(--text-muted) !important;
+  font-size: 0.8rem !important;
 }
 
 .author__avatar img {
-  border-color: var(--avatar-border) !important;
+  border-color: var(--accent) !important;
+  border-width: 2px !important;
 }
 
 .author__urls-wrapper button {
@@ -268,6 +340,74 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-muted) !important;
 }
 
+.author__urls a {
+  font-size: 0.82rem !important;
+}
+
+/* -------------------------------------------------------------------
+   Underlines / ins
+   ------------------------------------------------------------------- */
+u, ins {
+  border-bottom-color: var(--text-muted) !important;
+}
+
+abbr[title],
+abbr[data-original-title] {
+  border-bottom-color: var(--text-muted) !important;
+}
+
+/* -------------------------------------------------------------------
+   Terminal window — wraps every page's content
+   ------------------------------------------------------------------- */
+.page .page__inner-wrap,
+.archive {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 0 0 12px 12px;
+  padding: 1.5rem;
+  position: relative;
+  margin-top: 0;
+  box-shadow: 0 4px 24px var(--shadow);
+  border-top: none;
+}
+
+.page .page__inner-wrap > header {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.page__title,
+.archive > h1 {
+  color: var(--accent) !important;
+  font-size: 1.3rem !important;
+}
+
+.page__title::before,
+.archive > h1::before {
+  content: "> ";
+  color: var(--text-dim);
+}
+
+/* Archive layout content */
+.archive {
+  color: var(--text) !important;
+}
+
+.archive a {
+  text-decoration: none !important;
+}
+
+.archive h1, .archive h2, .archive h3 {
+  color: var(--text) !important;
+}
+
+/* CV page iframe */
+.archive iframe {
+  border-radius: 8px;
+  border: 1px solid var(--border) !important;
+}
+
 /* -------------------------------------------------------------------
    Page content
    ------------------------------------------------------------------- */
@@ -279,8 +419,61 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text) !important;
 }
 
+.page__content p,
+.page__content li {
+  color: var(--text) !important;
+}
+
+.page__content a {
+  text-decoration: none !important;
+  border-bottom: 1px dashed var(--border) !important;
+}
+
+.page__content a:hover {
+  color: var(--link-hover) !important;
+  border-bottom-color: var(--link-hover) !important;
+  text-decoration: none !important;
+}
+
 .page__meta {
   color: var(--text-dim) !important;
+}
+
+.page__content > h3::before,
+.archive > h2::before {
+  content: "## ";
+  color: var(--text-dim);
+}
+
+/* -------------------------------------------------------------------
+   News table on homepage
+   ------------------------------------------------------------------- */
+.page__content table {
+  background: transparent !important;
+}
+
+.page__content table td {
+  border: none !important;
+  padding: 0.5rem 0.75rem !important;
+  vertical-align: top;
+}
+
+.page__content table tr {
+  border-bottom: 1px solid var(--border) !important;
+  background: transparent !important;
+}
+
+.page__content table tr:last-child {
+  border-bottom: none !important;
+}
+
+.page__content table td b {
+  color: var(--accent);
+  font-size: 0.85rem;
+}
+
+.page__content table tbody tr:nth-child(even) {
+  background-color: transparent !important;
 }
 
 /* -------------------------------------------------------------------
@@ -556,6 +749,28 @@ input, select, textarea,
 .greedy-nav .hidden-links,
 .pagination li a,
 .pagination--pager,
+.page .page__inner-wrap,
+.archive,
 .deadline-card {
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease !important;
+}
+
+/* -------------------------------------------------------------------
+   Catch-all for any remaining white/light backgrounds
+   ------------------------------------------------------------------- */
+.initial-content,
+.search-content {
+  background: transparent !important;
+}
+
+.page__related {
+  color: var(--text) !important;
+}
+
+.page__related a {
+  color: var(--text) !important;
+}
+
+.page__related-title {
+  color: var(--text-muted) !important;
 }
