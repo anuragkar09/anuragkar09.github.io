@@ -21,7 +21,7 @@
 
     var meta = document.querySelector('meta[name="theme-color"]');
     if (meta) {
-      meta.setAttribute("content", theme === "dark" ? "#0a1220" : "#eee8d5");
+      meta.setAttribute("content", theme === "dark" ? "#0a1220" : "#002b36");
     }
   }
 
