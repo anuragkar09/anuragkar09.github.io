@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: ""
-excerpt: "About me"
+title: "About Me"
+excerpt: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -16,6 +16,10 @@ I'm a PhD student in Computer Science at Georgia Tech. I work on making compute-
 
 <table>
   <tbody>
+    <tr>
+      <td><b>May'25</b></td>
+      <td>Interned at AMD Research and Advanced Development (RAD) in summer 2025</td>
+    </tr>
     <tr>
       <td><b>Feb'23</b></td>
       <td>I will be joining AMD Research as Research Intern for the summer of 2023</td>
